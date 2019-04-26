@@ -1,0 +1,141 @@
+{
+  "projectId": "155375502527567596",
+  "blockId": "155193846443061602",
+  "type": "chart",
+  "dataSrc": {
+    "srcType": "local",
+    "dataType": "obejct-table",
+    "data": [
+      []
+    ],
+    "url": "",
+    "download": false
+  },
+  "label": "<e-barbasic-chart>",
+  "templateId": "444734748594536323",
+  "isFree": "0",
+  "templateSwitch": "key-value",
+  "theme": {
+    "_id": 17,
+    "axis": {
+      "color": "#313131"
+    },
+    "backgroundColor": "#FFFFFF",
+    "colors": [
+      "#4150d8",
+      "#28bf7e",
+      "#ed7c2f",
+      "#f2a93b",
+      "#f9cf36",
+      "#4a5bdc",
+      "#4cd698",
+      "#f4914e",
+      "#fcb75b",
+      "#ffe180",
+      "#b6c2ff",
+      "#96edc1",
+      "#ffbe92",
+      "#ffd6ae",
+      "#ffecb6"
+    ],
+    "fonts": {
+      "color": "#313131",
+      "fontFamily": "noto",
+      "fontSize": "13"
+    },
+    "grid": {
+      "color": "#ccc"
+    },
+    "name": "默认主题",
+    "price": "0.0",
+    "shapeColor": 1,
+    "themeId": "17",
+    "thumb": "https://ss1.dydata.io/v2/themes/17.png"
+  },
+  "props": {
+    "size": {
+      "height": "400",
+      "width": "500",
+      "ratio": null,
+      "rotate": 0
+    },
+    "map": [
+      [
+        {
+          "name": "名称",
+          "index": 0,
+          "allowType": [
+            "string"
+          ],
+          "isLegend": true,
+          "function": "objCol",
+          "configurable": false
+        },
+        {
+          "name": "值",
+          "index": 1,
+          "allowType": [
+            "number"
+          ],
+          "isLegend": false,
+          "function": "vCol",
+          "configurable": false
+        }
+      ]
+    ],
+    "legend": {
+      "show": true,
+      "xPosition": "center",
+      "yPosition": "bottom"
+    },
+    "axis": {
+      "grid": {
+        "show": null,
+        "color": "#ccc"
+      },
+      "color": "#313131",
+      "x": {
+        "labelShow": true,
+        "name": "",
+        "range": []
+      },
+      "y": {
+        "labelShow": true,
+        "name": "",
+        "range": []
+      }
+    },
+    "font": {
+      "fontSize": "13",
+      "color": "#313131",
+      "fontFamily": "noto"
+    },
+    "tooltip": true,
+    "colors": {
+      "type": "single",
+      "list": [
+        3
+      ]
+    },
+    "backgroundColor": "",
+    "titleDisplay": {
+      "text": "",
+      "xPosition": "center",
+      "yPosition": "top",
+      "fontSize": "14",
+      "color": "#000000",
+      "fontFamily": "Noto Sans",
+      "show": false
+    }
+  },
+  "function_type": [
+    "比较类"
+  ],
+  "chart_type": "柱状图",
+  "title": "基础柱状图",
+  "thumb": "https://image.dydata.io/S9mQy7TtDPRefubPR9f5hY.jpg?imageView2/2/w/500/quality/90",
+  "position": {
+    "top": 0,
+    "left": 0
+  }
+}

@@ -1,0 +1,369 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="./font-face.css">
+
+  <script src="./src/js/plugins/d3-chart.min.js"></script>
+  <script src="./src/js/plugins/d3.v5.min.js"></script>
+
+  <script src="./src/js/plugins/handsontable.full.min.js"></script>
+  <link href="./src/js/plugins/handsontable.full.css" rel="stylesheet">
+
+  <script src="./src/js/plugins/echarts.min.js"></script>
+  <script src="./src/js/plugins/echarts-wordcloud.min.js"></script>
+
+  <script src="./src/js/plugins/common.min.js"></script>
+  <script src="./src/js/plugins/util.min.js"></script>
+
+  <script src="./dist/index.js"></script>
+  <link rel="stylesheet" href="./../dist/index.css">
+
+</head>
+
+<body>
+
+  <!-- 测试用按钮 -->
+  <div style="display:flex;justify-content:center;width:100%;position:absolute;top:50px;">
+    <div id="getImg" style="cursor:pointer;padding:10px;border:1px solid #eee;">下载图片</div>
+    <div id="updateJSON" style="cursor:pointer;padding:10px;border:1px solid #eee;">更新JSON</div>
+    <div id="getJSON" style="cursor:pointer;padding:10px;border:1px solid #eee;">获取JSON</div>
+  </div>
+
+
+  <!-- 图表容器 -->
+  <div id="editor-box">
+    <div id="setting"></div>
+  </div>
+
+  <script>
+
+    // 初始 JSON
+    const chartJSON = {
+      "projectId": "3612096174443311107",
+      "blockId": "155193846453436874",
+      "type": "chart",
+      "dataSrc": {
+        "srcType": "local",
+        "dataType": "cross-table",
+        "data": [
+          [
+            [
+              "年份",
+              "手机游戏",
+              "平板游戏",
+              "客户端游戏",
+              "家用游戏机",
+              "网页游戏"
+            ],
+            [
+              2009,
+              7664,
+              747,
+              5334,
+              2546,
+              2648
+            ],
+            [
+              2012,
+              10286,
+              1195,
+              4731,
+              1909,
+              2423
+            ],
+            [
+              2015,
+              13094,
+              2277,
+              4572,
+              2798,
+              2182
+            ],
+            [
+              2018,
+              14964,
+              5943,
+              5495,
+              3378,
+              1596
+            ],
+            [
+              2021,
+              17968,
+              11385,
+              4116,
+              3371,
+              1356
+            ]
+          ]
+        ],
+        "url": "",
+        "download": false
+      },
+      "label": "<e-barstack-chart>",
+      "templateId": "3612096174443311107",
+      "isFree": "0",
+      "templateSwitch": "cross",
+      "theme": {
+        "themeId": "16",
+        "name": "默认主题",
+        "colors": [
+          "#00aeef",
+          "#c759a1",
+          "#5552a3",
+          "#00bef3",
+          "#d07cb3",
+          "#6a65ad",
+          "#6ecff6",
+          "#dda6cc",
+          "#908ac2",
+          "#afe2fa",
+          "#e7c4dd",
+          "#b5b1d8",
+          "#d2eefc",
+          "#f0ddec",
+          "#d5d2ea"
+        ],
+        "fonts": {
+          "fontSize": "13",
+          "color": "#313131",
+          "fontFamily": "noto"
+        },
+        "grid": {
+          "color": "#ccc"
+        },
+        "backgroundColor": "#FFFFFF",
+        "axis": {
+          "color": "#313131"
+        },
+        "price": "0.0"
+      },
+      "props": {
+        "size": {
+          "height": "400",
+          "width": "500",
+          "ratio": null,
+          "rotate": 0
+        },
+        "map": [
+          [
+            {
+              "name": "X轴对象",
+              "index": 0,
+              "allowType": [
+                "string"
+              ],
+              "isLegend": false,
+              "function": "objCol",
+              "configurable": false
+            }
+          ]
+        ],
+        "legend": {
+          "show": true,
+          "xPosition": "center",
+          "yPosition": "bottom"
+        },
+        "axis": {
+          "grid": {
+            "show": null,
+            "color": "#ccc"
+          },
+          "color": "#313131",
+          "x": {
+            "labelShow": true,
+            "name": "",
+            "range": []
+          },
+          "y": {
+            "labelShow": true,
+            "name": "",
+            "range": []
+          }
+        },
+        "font": {
+          "fontSize": "13",
+          "color": "#313131",
+          "fontFamily": "noto"
+        },
+        "tooltip": true,
+        "colors": {
+          "type": "multiple",
+          "list": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "backgroundColor": "",
+        "titleDisplay": {
+          "text": "",
+          "xPosition": "center",
+          "yPosition": "top",
+          "fontSize": "14",
+          "color": "#000000",
+          "fontFamily": "Noto Sans",
+          "show": false
+        },
+        "label":{
+          "display": true,
+          "positionOptions":['内部居中', '内部居下'],
+          "positionChoice":'内部居下',
+          "contentOption":['名称','百分比','数值'],
+          "contentChoice":['百分比'],
+        },
+      },
+      "function_type": [
+        "比较类"
+      ],
+      "chart_type": "柱状图",
+      "title": "堆叠柱状图",
+      "thumb": "https://image.dydata.io/XJcYbs1sgp8RoYQCFQ2YTh.jpg?imageView2/2/w/500/quality/90"
+    }
+
+    // 测试更新 JSON
+    const updateJSON = {
+      "projectId": "444746070325460999",
+      "blockId": "155193846446699135",
+      "type": "chart",
+      "dataSrc": {
+        "srcType": "local",
+        "dataType": "obejct-table",
+        "data": [
+          [
+            ["厂商品牌", "覆盖率"],
+            ["苹果", 27.7],
+            ["华为", 19.61],
+            ["OPPO", 15.06],
+            ["vivo", 12.07],
+            ["小米", 9.48]
+          ]
+        ],
+        "url": "",
+        "download": false
+      },
+      "label": "<e-pierosetype-chart>",
+      "templateId": "444746070325460999",
+      "isFree": "0",
+      "templateSwitch": "key-value",
+      "theme": {
+        "themeId": "16",
+        "name": "默认主题",
+        "colors": ["#00aeef", "#c759a1", "#5552a3", "#00bef3", "#d07cb3", "#6a65ad", "#6ecff6", "#dda6cc", "#908ac2", "#afe2fa", "#e7c4dd", "#b5b1d8", "#d2eefc", "#f0ddec", "#d5d2ea"],
+        "fonts": {
+          "fontSize": "13",
+          "color": "#313131",
+          "fontFamily": "noto"
+        },
+        "grid": {
+          "color": "#ccc"
+        },
+        "backgroundColor": "#FFFFFF",
+        "axis": {
+          "color": "#313131"
+        },
+        "price": "0.0"
+      },
+      "props": {
+        "size": {
+          "height": "400",
+          "width": "500",
+          "ratio": null,
+          "rotate": 0
+        },
+        "map": [
+          [
+            {
+              "name": "名称",
+              "index": 0,
+              "allowType": ["string"],
+              "isLegend": true,
+              "function": "objCol",
+              "configurable": false
+            },
+            {
+              "name": "值",
+              "index": 1,
+              "allowType": ["number"],
+              "isLegend": false,
+              "function": "vCol",
+              "configurable": false
+            }
+          ]
+        ],
+        "legend": {
+          "show": true,
+          "xPosition": "center",
+          "yPosition": "bottom"
+        },
+        "axis": null,
+        "font": {
+          "fontSize": "13",
+          "color": "#313131",
+          "fontFamily": "noto"
+        },
+        "tooltip": true,
+        "colors": {
+          "type": "multiple",
+          "list": [0, 1, 2, 3, 4]
+        },
+        "backgroundColor": "",
+        "titleDisplay": {
+          "text": "6666666666",
+          "xPosition": "center",
+          "yPosition": "top",
+          "fontSize": "14",
+          "color": "#ff0000",
+          "fontFamily": "Noto Sans",
+          "show": true
+        }
+      },
+      "function_type": ["占比类"],
+      "chart_type": "饼图",
+      "title": "变形饼图",
+      "thumb": "https://image.dydata.io/HscHuHwcLRLUuQDMh3ZsTS.jpg?imageView2/2/w/500/quality/90"
+    }
+
+    // 实例化对象
+    const editor = new Editor({
+      showConfig: true,
+      clientId: 'c53822d351882c0c49acafc7c44f09ca',
+      chartJSON: chartJSON,
+      chartColorList: [
+        ['black', 'white', 'blanchedalmond','rgb(255, 128, 0);', 'hsv 100 70 50'],
+        ['red', 'yellow', 'green', 'blue', 'violet']
+      ]
+    });
+
+    // 导出图片接口
+    document.getElementById('getImg').addEventListener('click', function () {
+      editor.exportImage({
+        scale: 2,
+        transparent: false
+      }, function (res) {
+        console.log(res)
+      })
+    }, false)
+
+    // 更新 JSON
+    document.getElementById('updateJSON').addEventListener('click', function () {
+      editor.updateJSON(updateJSON, function () {
+        console.log(`更新`)
+      })
+    }, false)
+
+    // 获取最终 JSON
+    document.getElementById('getJSON').addEventListener('click', function () {
+      editor.getJSON(function (res) {
+        console.log(res)
+      })
+    }, false)
+
+  </script>
+
+</body>
+
+</html>
