@@ -1,10 +1,14 @@
 ## 使用
 
-注：本插件需要部署在服务器环境，否则无法加载
+注：`SDK` 示例（example）需要部署在服务器环境，否则无法加载
 
 使用 `roolup` 进行工程化打包，执行命令为 `npm run build`
 
-## 插件依赖
+详细使用方式可以参考示例文件 [https://github.com/heptaluan/chartSetting/blob/master/example/index.html](https://github.com/heptaluan/chartSetting/blob/master/example/index.html)
+
+在线示例地址为：[example](https://heptaluan.github.io/chartSetting/example/)
+
+## SDK 依赖
 
 如下所示，页面所需要引入相关文件
 

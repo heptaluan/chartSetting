@@ -40,71 +40,47 @@
 
     // 初始 JSON
     const chartJSON = {
-      "projectId": "3612096174443311107",
-      "blockId": "155193846453436874",
+      "projectId": "444746070325460997",
+      "blockId": "155193846456807908",
       "type": "chart",
       "dataSrc": {
         "srcType": "local",
-        "dataType": "cross-table",
+        "dataType": "obejct-table",
         "data": [
           [
             [
-              "年份",
-              "手机游戏",
-              "平板游戏",
-              "客户端游戏",
-              "家用游戏机",
-              "网页游戏"
+              "受教育水平",
+              "占比（%）"
             ],
             [
-              2009,
-              7664,
-              747,
-              5334,
-              2546,
-              2648
+              "大学本科",
+              63
             ],
             [
-              2012,
-              10286,
-              1195,
-              4731,
-              1909,
-              2423
+              "大学专科",
+              16.9
             ],
             [
-              2015,
-              13094,
-              2277,
-              4572,
-              2798,
-              2182
+              "硕士",
+              12.8
             ],
             [
-              2018,
-              14964,
-              5943,
-              5495,
-              3378,
-              1596
+              "高中及以下",
+              5.5
             ],
             [
-              2021,
-              17968,
-              11385,
-              4116,
-              3371,
-              1356
+              "博士及以上",
+              1.8
             ]
           ]
         ],
         "url": "",
         "download": false
       },
-      "label": "<e-barstack-chart>",
-      "templateId": "3612096174443311107",
+      "label": "<e-piebasic-chart>",
+      "templateId": "444746070325460997",
       "isFree": "0",
-      "templateSwitch": "cross",
+      "templateSwitch": "key-value",
       "theme": {
         "themeId": "16",
         "name": "默认主题",
@@ -149,13 +125,23 @@
         "map": [
           [
             {
-              "name": "X轴对象",
+              "name": "名称",
               "index": 0,
               "allowType": [
                 "string"
               ],
-              "isLegend": false,
+              "isLegend": true,
               "function": "objCol",
+              "configurable": false
+            },
+            {
+              "name": "值",
+              "index": 1,
+              "allowType": [
+                "number"
+              ],
+              "isLegend": false,
+              "function": "vCol",
               "configurable": false
             }
           ]
@@ -165,27 +151,18 @@
           "xPosition": "center",
           "yPosition": "bottom"
         },
-        "axis": {
-          "grid": {
-            "show": null,
-            "color": "#ccc"
-          },
-          "color": "#313131",
-          "x": {
-            "labelShow": true,
-            "name": "",
-            "range": []
-          },
-          "y": {
-            "labelShow": true,
-            "name": "",
-            "range": []
-          }
-        },
+        "axis": null,
         "font": {
           "fontSize": "13",
           "color": "#313131",
           "fontFamily": "noto"
+        },
+        "label": {
+          "display": true,
+          "positionOptions": ['外部', '内部'],
+          "positionChoice": '外部',
+          "contentOption": ['名称', '百分比', '数值'],
+          "contentChoice": ['名称', '百分比'],
         },
         "tooltip": true,
         "colors": {
@@ -208,20 +185,13 @@
           "fontFamily": "Noto Sans",
           "show": false
         },
-        "label":{
-          "display": true,
-          "positionOptions":['内部居中', '内部居下'],
-          "positionChoice":'内部居下',
-          "contentOption":['名称','百分比','数值'],
-          "contentChoice":['百分比'],
-        },
       },
       "function_type": [
-        "比较类"
+        "占比类"
       ],
-      "chart_type": "柱状图",
-      "title": "堆叠柱状图",
-      "thumb": "https://image.dydata.io/XJcYbs1sgp8RoYQCFQ2YTh.jpg?imageView2/2/w/500/quality/90"
+      "chart_type": "饼图",
+      "title": "基础饼图",
+      "thumb": "https://image.dydata.io/E8hjxBcbsDqAkMBMmTgoN2.jpg?imageView2/2/w/500/quality/90"
     }
 
     // 测试更新 JSON
@@ -333,7 +303,7 @@
       clientId: 'c53822d351882c0c49acafc7c44f09ca',
       chartJSON: chartJSON,
       chartColorList: [
-        ['black', 'white', 'blanchedalmond','rgb(255, 128, 0);', 'hsv 100 70 50'],
+        ['black', 'white', 'blanchedalmond', 'rgb(255, 128, 0);', 'hsv 100 70 50'],
         ['red', 'yellow', 'green', 'blue', 'violet']
       ]
     });

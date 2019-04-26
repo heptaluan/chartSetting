@@ -292,12 +292,20 @@
     const editor = new Editor({
       showConfig: true,
       clientId: 'c53822d351882c0c49acafc7c44f09ca',
-      chartJSON: chartJSON
-    });
+      chartJSON: chartJSON,
+      chartColorList: [
+        ['black', 'white', 'blanchedalmond', 'rgb(255, 128, 0);', 'hsv 100 70 50'],
+        ['red', 'yellow', 'green', 'blue', 'violet']
+      ]
+    })
 
     // 导出图片接口
     document.getElementById('getImg').addEventListener('click', function () {
-      editor.getImage(function (res) {
+      editor.exportImage({
+        scale: 2,
+        transparent: true,
+        background: 'black'
+      }, function (res) {
         console.log(res)
       })
     }, false)

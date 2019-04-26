@@ -382,35 +382,7 @@ class Editor {
             name: '删除所在行'
           },
           'remove_col': {
-            name: '删除所在列',
-            hidden: function () {
-              return false;
-            },
-            callback: function (key, selection, clickEvent) {
-              var delColsArry = new Array();
-              var arr = this.getSelectedRange();
-              arr.forEach(element => {
-                var from = element.from;
-                var to = element.to;
-                var devideN = to.col - from.col;
-                // 多列
-                if (devideN > 0) {
-                  for (var i = 0; i <= devideN; i++) {
-                    var a = [from.col + i, 1];
-                    delColsArry.push(a);
-                  }
-                }
-                // 单列被选择
-                else if (devideN == 0) {
-                  var a = [from.col, 1];
-                  delColsArry.push(a);
-                }
-              });
-              // delColsArry 是单列列举过的二维数组，每次删一列
-              this.alter('remove_col', delColsArry);
-              that.uploadColorSetting();
-              that.updateTable([], hotInstance)
-            }
+            name: '删除所在列'
           },
           'hr3': '---------',
           'row_above': {
