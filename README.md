@@ -1,12 +1,18 @@
 ## 使用
 
-注：`SDK` 示例（example）需要部署在服务器环境，否则无法加载
+一些注意事项
 
-使用 `roolup` 进行工程化打包，执行命令为 `npm run build`
+* `SDK` 示例需要部署在服务器环境，否则无法加载
 
-详细使用方式可以参考示例文件 [https://github.com/heptaluan/chartSetting/blob/master/example/index.html](https://github.com/heptaluan/chartSetting/blob/master/example/index.html)
+* `node` 版本需要 `8.x`
 
-在线示例地址为：[example](https://heptaluan.github.io/chartSetting/example/)
+* 需要安装 `roolup`
+
+首先安装相关依赖 `npm/cnpm install`，然后使用 `roolup` 进行工程化打包，执行命令为 `npm run build`
+
+当控制台显示 `waiting for changes...` 即表示已经成功启动项目
+
+接下来将项目部署至本地服务器环境启动，访问 `index.html` 即可
 
 ## SDK 依赖
 
@@ -53,15 +59,11 @@
 实例化一个 `Editor` 对象即可，如下
 
 ```js
+// 实例化对象
 const editor = new Editor({
   showConfig: true,
-  clientId: 'c53822d351882c0c49acafc7c44f09ca',
-  chartJSON: chartJSON,
-  chartColorList: [
-    ['black', 'white', 'blanchedalmond', 'rgb(255, 128, 0);', 'hsv 100 70 50'],
-    ['red', 'yellow', 'green', 'blue', 'violet']
-  ]
-})
+  clientId: 'c53822d351882c0c49acafc7c44f09ca'
+});
 ```
 
 参数依次为下
@@ -70,12 +72,7 @@ const editor = new Editor({
 
 * `clientId`：字符串，授权 `id`，必填项，不填写无法进行初始化操作
 
-* `chartJSON`：`JSON` 格式对象，图表渲染 `JSON`，必填项
-
-* `chartColorList`：二维数组，渲染图表所使用的颜色列表，如果不传递该参数则会使用默认值进行填充
-
-  * 注：格式为二维数组，每一行数组中所传递的值对应着颜色选择列表的每一行数据
-
+* `chartJSON`：`JSON` 格式对象，图表渲染 `JSON`，选填项，如果传递则需要为一个合法的 `JSON` 对象，否则使用默认列表第一个图表
 
 
 
@@ -126,7 +123,7 @@ editor.updateJSON(updateJSON, function () {
 })
 ```
 
-* `updateJSON`，JSON 对象，必填项，用于更新图表的 `JSON` 格式数据，需要为标准 `JSON` 格式
+* `updateJSON`，`JSON` 对象，必填项，用于更新图表的 `JSON` 格式数据，需要为标准 `JSON` 格式
 
 * `callback` 更新完成后的回调函数
 

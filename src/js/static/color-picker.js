@@ -92,6 +92,7 @@
       return [
           "<div class='sp-container sp-hidden'>",
               "<div class='sp-palette-container'>",
+                  "<span>主题配色</span>",
                   "<div class='sp-palette sp-thumb sp-cf'></div>",
                   "<div class='sp-palette-button-container sp-cf'>",
                       "<button type='button' class='sp-palette-toggle'></button>",
@@ -120,6 +121,7 @@
                   "<div class='sp-input-container sp-cf'>",
                       "<input class='sp-input' type='text' spellcheck='false'  />",
                   "</div>",
+                  "<span class='color-diy'>自定义</span>",
                   "<div class='sp-initial sp-thumb sp-cf'></div>",
                   "<div class='sp-button-container sp-cf'>",
                       "<a class='sp-cancel' href='#'></a>",
@@ -1001,18 +1003,22 @@
 
       offsetTop += inputHeight;
 
-      offsetLeft -=
-          Math.min(offsetLeft, (offsetLeft + dpWidth > viewWidth && viewWidth > dpWidth) ?
-          Math.abs(offsetLeft + dpWidth - viewWidth) : 0);
+    //   offsetLeft -=
+    //       Math.min(offsetLeft, (offsetLeft + dpWidth > viewWidth && viewWidth > dpWidth) ?
+    //       Math.abs(offsetLeft + dpWidth - viewWidth) : 0);
 
-      offsetTop -=
-          Math.min(offsetTop, ((offsetTop + dpHeight > viewHeight && viewHeight > dpHeight) ?
-          Math.abs(dpHeight + inputHeight - extraY) : extraY));
+    //   offsetTop -=
+    //       Math.min(offsetTop, ((offsetTop + dpHeight > viewHeight && viewHeight > dpHeight) ?
+    //       Math.abs(dpHeight + inputHeight - extraY) : extraY));
+
+      if (input[0].getBoundingClientRect().top > 155) {
+        offsetTop = 185
+      }
 
       return {
-          top: offsetTop,
+          top: offsetTop - 30,
           bottom: offset.bottom,
-          left: offsetLeft,
+          left: offsetLeft - 190,
           right: offset.right,
           width: offset.width,
           height: offset.height

@@ -1,300 +1,4 @@
-export const chartTemplateList = [
-  {
-    "projectId": "114473474859453649",
-    "blockId": "155193846444652986",
-    "type": "chart",
-    "dataSrc": {
-      "srcType": "local",
-      "dataType": "obejct-table",
-      "data": [
-        [
-          [
-            "词汇",
-            "权重"
-          ],
-          [
-            "生活资源",
-            999
-          ],
-          [
-            "供热管理",
-            888
-          ],
-          [
-            "供气质量",
-            777
-          ],
-          [
-            "生活用水管理",
-            688
-          ],
-          [
-            "一次供水问题",
-            588
-          ],
-          [
-            "交通运输",
-            516
-          ],
-          [
-            "土地资源管理",
-            304
-          ],
-          [
-            "物业服务与管理",
-            304
-          ],
-          [
-            "医疗卫生",
-            284
-          ],
-          [
-            "粉煤灰污染",
-            284
-          ],
-          [
-            "占道",
-            284
-          ],
-          [
-            "供热发展",
-            254
-          ],
-          [
-            "农村土地规划管理",
-            254
-          ],
-          [
-            "生活噪音",
-            253
-          ],
-          [
-            "公共设施",
-            223
-          ],
-          [
-            "供气质量",
-            223
-          ],
-          [
-            "供电管理",
-            223
-          ],
-          [
-            "燃气管理",
-            152
-          ],
-          [
-            "教育管理",
-            152
-          ],
-          [
-            "政务建设",
-            152
-          ],
-          [
-            "县区、开发区",
-            152
-          ],
-          [
-            "宏观经济",
-            152
-          ],
-          [
-            "教育管理",
-            112
-          ],
-          [
-            "工业粉尘污染",
-            71
-          ],
-          [
-            "治安案件",
-            71
-          ],
-          [
-            "压力容器安全",
-            71
-          ],
-          [
-            "劳动合同争议",
-            41
-          ],
-          [
-            "劳动报酬与福利",
-            41
-          ],
-          [
-            "医疗事故",
-            21
-          ],
-          [
-            "停供",
-            21
-          ],
-          [
-            "基础教育",
-            21
-          ],
-          [
-            "职业教育",
-            21
-          ],
-          [
-            "物业资质管理",
-            21
-          ],
-          [
-            "拆迁补偿",
-            21
-          ],
-          [
-            "设施维护",
-            21
-          ],
-          [
-            "市场外溢",
-            11
-          ],
-          [
-            "占道经营",
-            11
-          ],
-          [
-            "树木管理",
-            11
-          ],
-          [
-            "农村基础设施",
-            11
-          ],
-          [
-            "无水",
-            11
-          ],
-          [
-            "一次供水问题",
-            11
-          ]
-        ]
-      ],
-      "url": "",
-      "download": false
-    },
-    "label": "<e-wordcloud-chart>",
-    "templateId": "114473474859453649",
-    "isFree": "1",
-    "templateSwitch": "key-value",
-    "theme": {
-      "themeId": "16",
-      "name": "默认主题",
-      "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
-      ],
-      "fonts": {
-        "fontSize": "13",
-        "color": "#313131",
-        "fontFamily": "noto"
-      },
-      "grid": {
-        "color": "#ccc"
-      },
-      "backgroundColor": "#FFFFFF",
-      "axis": {
-        "color": "#313131"
-      },
-      "price": "20.0"
-    },
-    "props": {
-      "size": {
-        "height": "400",
-        "width": "500",
-        "ratio": null,
-        "rotate": 0
-      },
-      "map": [
-        [
-          {
-            "name": "词语",
-            "index": 0,
-            "allowType": [
-              "string"
-            ],
-            "isLegend": true,
-            "function": "objCol",
-            "configurable": false
-          },
-          {
-            "name": "权重",
-            "index": 1,
-            "allowType": [
-              "number"
-            ],
-            "isLegend": false,
-            "function": "vCol",
-            "configurable": false
-          }
-        ]
-      ],
-      "legend": {
-        "show": true,
-        "xPosition": "center",
-        "yPosition": "bottom"
-      },
-      "axis": null,
-      "font": {
-        "fontSize": "13",
-        "color": "#313131",
-        "fontFamily": "noto"
-      },
-      "tooltip": true,
-      "colors": {
-        "type": "single",
-        "list": [
-          0
-        ]
-      },
-      "backgroundColor": "",
-      "titleDisplay": {
-        "text": "",
-        "xPosition": "center",
-        "yPosition": "top",
-        "fontSize": "14",
-        "color": "#000000",
-        "fontFamily": "Noto Sans",
-        "show": false
-      },
-      "display": {
-        "fontSizeMin": "13",
-        "fontSizeMax": "45",
-        "fontFamily": "noto",
-        "outerShape": "circle",
-        "outerImgUrl": "circle.png",
-        "textDirection": "横向"
-      }
-    },
-    "function_type": [
-      "比较类"
-    ],
-    "chart_type": "其他",
-    "title": "词云图",
-    "thumb": "https://image.dydata.io/7cGzb2aZxoeV6oVRiUnFcf.png?imageView2/2/w/500/quality/90"
-  },
-  {
+export const chartTemplateList = [{
     "projectId": "444746070325460999",
     "blockId": "155193846446699135",
     "type": "chart",
@@ -337,24 +41,26 @@ export const chartTemplateList = [
     "isFree": "0",
     "templateSwitch": "key-value",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -368,6 +74,7 @@ export const chartTemplateList = [
       "axis": {
         "color": "#313131"
       },
+      "shapeColor": 1,
       "price": "0.0"
     },
     "props": {
@@ -378,8 +85,7 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
+        [{
             "name": "名称",
             "index": 0,
             "allowType": [
@@ -414,11 +120,27 @@ export const chartTemplateList = [
       },
       "tooltip": true,
       "label": {
-        "display": true,
-        "positionOptions": ['外部', '内部'],
-        "positionChoice": '外部',
-        "contentOption": ['名称', '百分比', '数值'],
-        "contentChoice": ['名称', '百分比'],
+        "display": false,
+        "positionOptions": [
+          "内部径向",
+          "内部水平",
+          "外部"
+        ],
+        "positionChoice": "内部径向",
+        "contentOption": [
+          "名称",
+          "百分比",
+          "数值"
+        ],
+        "contentChoice": [
+          "名称",
+          "百分比"
+        ],
+        "textLabel": {
+          "fontSize": 12,
+          'color': "#313131",
+          "fontFamily": "noto"
+        }
       },
       "colors": {
         "type": "multiple",
@@ -435,7 +157,7 @@ export const chartTemplateList = [
         "text": "",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
         "show": false
@@ -491,24 +213,26 @@ export const chartTemplateList = [
     "isFree": "0",
     "templateSwitch": "key-value",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -519,9 +243,8 @@ export const chartTemplateList = [
         "color": "#ccc"
       },
       "backgroundColor": "#FFFFFF",
-      "axis": {
-        "color": "#313131"
-      },
+      "axis": null,
+      "shapeColor": 1,
       "price": "0.0"
     },
     "props": {
@@ -532,8 +255,7 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
+        [{
             "name": "名称",
             "index": 0,
             "allowType": [
@@ -567,11 +289,27 @@ export const chartTemplateList = [
         "fontFamily": "noto"
       },
       "label": {
-        "display": true,
-        "positionOptions": ['外部', '内部'],
-        "positionChoice": '外部',
-        "contentOption": ['名称', '百分比', '数值'],
-        "contentChoice": ['名称', '百分比'],
+        "display": false,
+        "positionOptions": [
+          "内部径向",
+          "内部水平",
+          "外部"
+        ],
+        "positionChoice": "内部水平",
+        "contentOption": [
+          "名称",
+          "百分比",
+          "数值"
+        ],
+        "contentChoice": [
+          "名称",
+          "百分比"
+        ],
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
       },
       "tooltip": true,
       "colors": {
@@ -589,7 +327,7 @@ export const chartTemplateList = [
         "text": "",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
         "show": false
@@ -602,162 +340,178 @@ export const chartTemplateList = [
     "title": "基础饼图",
     "thumb": "https://image.dydata.io/E8hjxBcbsDqAkMBMmTgoN2.jpg?imageView2/2/w/500/quality/90"
   },
-  {
-    "projectId": "444746070325460998",
-    "blockId": "155193846460527311",
-    "type": "chart",
-    "dataSrc": {
-      "srcType": "local",
-      "dataType": "obejct-table",
-      "data": [
-        [
-          [
-            "年龄",
-            "观众比例（%）"
-          ],
-          [
-            "25-34岁",
-            42.9
-          ],
-          [
-            "19-24岁",
-            30.9
-          ],
-          [
-            "18岁以下 ",
-            15.2
-          ],
-          [
-            "45岁以上",
-            7.6
-          ],
-          [
-            "35-44岁",
-            3.4
-          ]
-        ]
-      ],
-      "url": "",
-      "download": false
-    },
-    "label": "<e_piedoughnut_chart>",
-    "templateId": "444746070325460998",
-    "isFree": "0",
-    "templateSwitch": "key-value",
-    "theme": {
-      "themeId": "16",
-      "name": "默认主题",
-      "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
-      ],
-      "fonts": {
-        "fontSize": "13",
-        "color": "#313131",
-        "fontFamily": "noto"
-      },
-      "grid": {
-        "color": "#ccc"
-      },
-      "backgroundColor": "#FFFFFF",
-      "axis": {
-        "color": "#313131"
-      },
-      "price": "0.0"
-    },
-    "props": {
-      "size": {
-        "height": "400",
-        "width": "500",
-        "ratio": null,
-        "rotate": 0
-      },
-      "map": [
-        [
-          {
-            "name": "名称",
-            "index": 0,
-            "allowType": [
-              "string"
-            ],
-            "isLegend": true,
-            "function": "objCol",
-            "configurable": false
-          },
-          {
-            "name": "值",
-            "index": 1,
-            "allowType": [
-              "number"
-            ],
-            "isLegend": false,
-            "function": "vCol",
-            "configurable": false
-          }
-        ]
-      ],
-      "legend": {
-        "show": true,
-        "xPosition": "center",
-        "yPosition": "bottom"
-      },
-      "axis": null,
-      "font": {
-        "fontSize": "13",
-        "color": "#313131",
-        "fontFamily": "noto"
-      },
-      "tooltip": true,
-      "label": {
-        "display": true,
-        "positionOptions": ['外部', '内部'],
-        "positionChoice": '外部',
-        "contentOption": ['名称', '百分比', '数值'],
-        "contentChoice": ['名称', '百分比'],
-      },
-      "colors": {
-        "type": "multiple",
-        "list": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ]
-      },
-      "backgroundColor": "",
-      "titleDisplay": {
-        "text": "",
-        "xPosition": "center",
-        "yPosition": "top",
-        "fontSize": "14",
-        "color": "#000000",
-        "fontFamily": "Noto Sans",
-        "show": false
-      },
-    },
-    "function_type": [
-      "比较类",
-      "比例类",
-      "占比类"
-    ],
-    "chart_type": "饼图",
-    "title": "基础环形图",
-    "thumb": "https://image.dydata.io/KDMMBTa8PNGi37HCcgWcMY.jpg?imageView2/2/w/500/quality/90"
-  },
+  // {
+  //   "projectId": "444746070325460998",
+  //   "blockId": "155193846460527311",
+  //   "type": "chart",
+  //   "dataSrc": {
+  //     "srcType": "local",
+  //     "dataType": "obejct-table",
+  //     "data": [
+  //       [
+  //         [
+  //           "年龄",
+  //           "观众比例（%）"
+  //         ],
+  //         [
+  //           "25-34岁",
+  //           42.9
+  //         ],
+  //         [
+  //           "19-24岁",
+  //           30.9
+  //         ],
+  //         [
+  //           "18岁以下 ",
+  //           15.2
+  //         ],
+  //         [
+  //           "45岁以上",
+  //           7.6
+  //         ],
+  //         [
+  //           "35-44岁",
+  //           3.4
+  //         ]
+  //       ]
+  //     ],
+  //     "url": "",
+  //     "download": false
+  //   },
+  //   "label": "<e_piedoughnut_chart>",
+  //   "templateId": "444746070325460998",
+  //   "isFree": "0",
+  //   "templateSwitch": "key-value",
+  //   "theme": {
+  //     "_id": 17,
+  //     "themeId": "17",
+  //     "name": "默认主题",
+  //     "thumb": "https://ss1.dydata.io/v2/themes/17.png",
+  //     "colors": [
+  //       "#4150d8",
+  //       "#28bf7e",
+  //       "#ed7c2f",
+  //       "#f2a93b",
+  //       "#f9cf36",
+  //       "#4a5bdc",
+  //       "#4cd698",
+  //       "#f4914e",
+  //       "#fcb75b",
+  //       "#ffe180",
+  //       "#b6c2ff",
+  //       "#96edc1",
+  //       "#ffbe92",
+  //       "#ffd6ae",
+  //       "#ffecb6"
+  //     ],
+  //     "fonts": {
+  //       "fontSize": "13",
+  //       "color": "#313131",
+  //       "fontFamily": "noto"
+  //     },
+  //     "grid": {
+  //       "color": "#ccc"
+  //     },
+  //     "backgroundColor": "#FFFFFF",
+  //     "axis": {
+  //       "color": "#313131"
+  //     },
+  //     "shapeColor": 1,
+  //     "price": "0.0"
+  //   },
+  //   "props": {
+  //     "size": {
+  //       "height": "400",
+  //       "width": "500",
+  //       "ratio": null,
+  //       "rotate": 0
+  //     },
+  //     "map": [
+  //       [{
+  //           "name": "名称",
+  //           "index": 0,
+  //           "allowType": [
+  //             "string"
+  //           ],
+  //           "isLegend": true,
+  //           "function": "objCol",
+  //           "configurable": false
+  //         },
+  //         {
+  //           "name": "值",
+  //           "index": 1,
+  //           "allowType": [
+  //             "number"
+  //           ],
+  //           "isLegend": false,
+  //           "function": "vCol",
+  //           "configurable": false
+  //         }
+  //       ]
+  //     ],
+  //     "legend": {
+  //       "show": true,
+  //       "xPosition": "center",
+  //       "yPosition": "bottom"
+  //     },
+  //     "axis": null,
+  //     "font": {
+  //       "fontSize": "13",
+  //       "color": "#313131",
+  //       "fontFamily": "noto"
+  //     },
+  //     "tooltip": true,
+  //     "label": {
+  //       "display": true,
+  //       "positionOptions": [
+  //         "外部",
+  //         "内部"
+  //       ],
+  //       "positionChoice": "内部",
+  //       "contentOption": [
+  //         "名称",
+  //         "百分比",
+  //         "数值"
+  //       ],
+  //       "contentChoice": [
+  //         "名称"
+  //       ],
+  //       "textLabel": {
+  //         "fontSize": 12,
+  //         "color": "#313131",
+  //         "fontFamily": "noto"
+  //       }
+  //     },
+  //     "colors": {
+  //       "type": "multiple",
+  //       "list": [
+  //         0,
+  //         1,
+  //         2,
+  //         3,
+  //         4
+  //       ]
+  //     },
+  //     "backgroundColor": "",
+  //     "titleDisplay": {
+  //       "text": "",
+  //       "xPosition": "center",
+  //       "yPosition": "top",
+  //       "fontSize": "16",
+  //       "color": "#000000",
+  //       "fontFamily": "Noto Sans",
+  //       "show": false
+  //     },
+  //   },
+  //   "function_type": [
+  //     "比较类",
+  //     "比例类",
+  //     "占比类"
+  //   ],
+  //   "chart_type": "饼图",
+  //   "title": "基础环形图",
+  //   "thumb": "https://image.dydata.io/KDMMBTa8PNGi37HCcgWcMY.jpg?imageView2/2/w/500/quality/90"
+  // },
   {
     "projectId": "4544734748594536433",
     "blockId": "155193846469289546",
@@ -841,24 +595,26 @@ export const chartTemplateList = [
     "isFree": "0",
     "templateSwitch": "cross",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -872,6 +628,7 @@ export const chartTemplateList = [
       "axis": {
         "color": "#313131"
       },
+      "shapeColor": 1,
       "price": "0.0"
     },
     "props": {
@@ -882,18 +639,16 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
-            "name": "对象",
-            "index": 0,
-            "allowType": [
-              "string"
-            ],
-            "isLegend": false,
-            "function": "objCol",
-            "configurable": false
-          }
-        ]
+        [{
+          "name": "对象",
+          "index": 0,
+          "allowType": [
+            "string"
+          ],
+          "isLegend": false,
+          "function": "objCol",
+          "configurable": false
+        }]
       ],
       "legend": {
         "show": true,
@@ -902,10 +657,10 @@ export const chartTemplateList = [
       },
       "axis": {
         "grid": {
-          "show": null,
-          "color": "#ccc"
+          "show": "x",
+          "color": "#e9e9e9"
         },
-        "color": "#313131",
+        "color": "#bfbfbf",
         "x": {
           "labelShow": true,
           "name": "",
@@ -913,7 +668,7 @@ export const chartTemplateList = [
         },
         "y": {
           "labelShow": true,
-          "name": "",
+          "name": "人均支出（单位：元）",
           "range": []
         }
       },
@@ -923,9 +678,17 @@ export const chartTemplateList = [
         "fontFamily": "noto"
       },
       "label": {
-        "display": true,
-        "positionOptions": ['上面', '下面'],
-        "positionChoice": '上面'
+        "display": false,
+        "positionOptions": [
+          "上面",
+          "下面"
+        ],
+        "positionChoice": "上面",
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
       },
       "tooltip": true,
       "colors": {
@@ -940,13 +703,13 @@ export const chartTemplateList = [
       },
       "backgroundColor": "",
       "titleDisplay": {
-        "text": "",
+        "text": "2006-2012年城市居民人均分项消费支出对比图",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
-        "show": false
+        "show": true
       },
     },
     "function_type": [
@@ -956,204 +719,213 @@ export const chartTemplateList = [
     "title": "多条折线图",
     "thumb": "https://image.dydata.io/uXtwEwjXpvKhfKB7hy9nt.jpg?imageView2/2/w/500/quality/90"
   },
-  {
-    "projectId": "5612096174443311134",
-    "blockId": "155193846464349750",
-    "type": "chart",
-    "dataSrc": {
-      "srcType": "local",
-      "dataType": "cross-table",
-      "data": [
-        [
-          [
-            "省份",
-            "全国",
-            "北京市",
-            "上海市",
-            "广州市",
-            "深圳市"
-          ],
-          [
-            2010,
-            5032,
-            17782,
-            14464,
-            11921,
-            19170
-          ],
-          [
-            2011,
-            5357.1,
-            16851.95,
-            14603.24,
-            12103.52,
-            21350
-          ],
-          [
-            2012,
-            5790.99,
-            17021.63,
-            14061.37,
-            13162.67,
-            19589.82
-          ],
-          [
-            2013,
-            6237,
-            18553,
-            16420,
-            15330,
-            24402
-          ],
-          [
-            2014,
-            6324,
-            18833,
-            16787,
-            15719,
-            27723
-          ],
-          [
-            2015,
-            6793,
-            22633,
-            20949,
-            14612,
-            33942
-          ],
-          [
-            2016,
-            7476,
-            27497,
-            24747,
-            16384,
-            45146
-          ]
-        ]
-      ],
-      "url": "",
-      "download": false
-    },
-    "label": "<d-stepline-chart>",
-    "templateId": "5612096174443311134",
-    "isFree": "1",
-    "templateSwitch": "cross",
-    "theme": {
-      "themeId": "16",
-      "name": "默认主题",
-      "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
-      ],
-      "fonts": {
-        "fontSize": "13",
-        "color": "#313131",
-        "fontFamily": "noto"
-      },
-      "grid": {
-        "color": "#ccc"
-      },
-      "backgroundColor": "#FFFFFF",
-      "axis": {
-        "color": "#313131"
-      },
-      "price": "0.0"
-    },
-    "props": {
-      "size": {
-        "height": "400",
-        "width": "500",
-        "ratio": null,
-        "rotate": 0
-      },
-      "map": [
-        [
-          {
-            "name": "X轴对象",
-            "index": 0,
-            "allowType": [
-              "string"
-            ],
-            "isLegend": false,
-            "function": "objCol",
-            "configurable": false
-          }
-        ]
-      ],
-      "legend": {
-        "show": true,
-        "xPosition": "center",
-        "yPosition": "bottom"
-      },
-      "axis": {
-        "grid": {
-          "show": null,
-          "color": "#ccc"
-        },
-        "color": "#313131",
-        "x": {
-          "labelShow": true,
-          "name": "",
-          "range": []
-        },
-        "y": {
-          "labelShow": true,
-          "name": "",
-          "range": []
-        }
-      },
-      "font": {
-        "fontSize": "13",
-        "color": "#313131",
-        "fontFamily": "noto"
-      },
-      "label": {
-        "display": true,
-        "positionOptions": ['上面', '下面'],
-        "positionChoice": '上面'
-      },
-      "tooltip": true,
-      "colors": {
-        "type": "multiple",
-        "list": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ]
-      },
-      "backgroundColor": "",
-      "titleDisplay": {
-        "text": "",
-        "xPosition": "center",
-        "yPosition": "top",
-        "fontSize": "14",
-        "color": "#000000",
-        "fontFamily": "Noto Sans",
-        "show": false
-      },
-    },
-    "function_type": [
-      "趋势类"
-    ],
-    "chart_type": "线形图",
-    "title": "多条阶梯折线图",
-    "thumb": "https://image.dydata.io/Biwgk5YpZZCctseHmaC7ok.jpg?imageView2/2/w/500/quality/90"
-  },
+  // {
+  //   "projectId": "5612096174443311134",
+  //   "blockId": "155193846464349750",
+  //   "type": "chart",
+  //   "dataSrc": {
+  //     "srcType": "local",
+  //     "dataType": "cross-table",
+  //     "data": [
+  //       [
+  //         [
+  //           "省份",
+  //           "全国",
+  //           "北京市",
+  //           "上海市",
+  //           "广州市",
+  //           "深圳市"
+  //         ],
+  //         [
+  //           2010,
+  //           5032,
+  //           17782,
+  //           14464,
+  //           11921,
+  //           19170
+  //         ],
+  //         [
+  //           2011,
+  //           5357.1,
+  //           16851.95,
+  //           14603.24,
+  //           12103.52,
+  //           21350
+  //         ],
+  //         [
+  //           2012,
+  //           5790.99,
+  //           17021.63,
+  //           14061.37,
+  //           13162.67,
+  //           19589.82
+  //         ],
+  //         [
+  //           2013,
+  //           6237,
+  //           18553,
+  //           16420,
+  //           15330,
+  //           24402
+  //         ],
+  //         [
+  //           2014,
+  //           6324,
+  //           18833,
+  //           16787,
+  //           15719,
+  //           27723
+  //         ],
+  //         [
+  //           2015,
+  //           6793,
+  //           22633,
+  //           20949,
+  //           14612,
+  //           33942
+  //         ],
+  //         [
+  //           2016,
+  //           7476,
+  //           27497,
+  //           24747,
+  //           16384,
+  //           45146
+  //         ]
+  //       ]
+  //     ],
+  //     "url": "",
+  //     "download": false
+  //   },
+  //   "label": "<d-stepline-chart>",
+  //   "templateId": "5612096174443311134",
+  //   "isFree": "1",
+  //   "templateSwitch": "cross",
+  //   "theme": {
+  //     "_id": 17,
+  //     "themeId": "17",
+  //     "name": "默认主题",
+  //     "thumb": "https://ss1.dydata.io/v2/themes/17.png",
+  //     "colors": [
+  //       "#4150d8",
+  //       "#28bf7e",
+  //       "#ed7c2f",
+  //       "#f2a93b",
+  //       "#f9cf36",
+  //       "#4a5bdc",
+  //       "#4cd698",
+  //       "#f4914e",
+  //       "#fcb75b",
+  //       "#ffe180",
+  //       "#b6c2ff",
+  //       "#96edc1",
+  //       "#ffbe92",
+  //       "#ffd6ae",
+  //       "#ffecb6"
+  //     ],
+  //     "fonts": {
+  //       "fontSize": "13",
+  //       "color": "#313131",
+  //       "fontFamily": "noto"
+  //     },
+  //     "grid": {
+  //       "color": "#ccc"
+  //     },
+  //     "backgroundColor": "#FFFFFF",
+  //     "axis": {
+  //       "color": "#313131"
+  //     },
+  //     "shapeColor": 1,
+  //     "price": "0.0"
+  //   },
+  //   "props": {
+  //     "size": {
+  //       "height": "400",
+  //       "width": "500",
+  //       "ratio": null,
+  //       "rotate": 0
+  //     },
+  //     "map": [
+  //       [{
+  //         "name": "X轴对象",
+  //         "index": 0,
+  //         "allowType": [
+  //           "string"
+  //         ],
+  //         "isLegend": false,
+  //         "function": "objCol",
+  //         "configurable": false
+  //       }]
+  //     ],
+  //     "legend": {
+  //       "show": true,
+  //       "xPosition": "center",
+  //       "yPosition": "bottom"
+  //     },
+  //     "axis": {
+  //       "grid": {
+  //         "show": "x",
+  //         "color": "#e9e9e9"
+  //       },
+  //       "color": "#bfbfbf",
+  //       "x": {
+  //         "labelShow": true,
+  //         "name": "",
+  //         "range": []
+  //       },
+  //       "y": {
+  //         "labelShow": true,
+  //         "name": "",
+  //         "range": []
+  //       }
+  //     },
+  //     "font": {
+  //       "fontSize": "13",
+  //       "color": "#313131",
+  //       "fontFamily": "noto"
+  //     },
+  //     "label": {
+  //       "display": false,
+  //       "positionOptions": [
+  //         "上面",
+  //         "下面"
+  //       ],
+  //       "positionChoice": "上面",
+  //       "textLabel": {
+  //         "fontSize": 12,
+  //         "color": "#313131",
+  //         "fontFamily": "noto"
+  //       }
+  //     },
+  //     "tooltip": true,
+  //     "colors": {
+  //       "type": "multiple",
+  //       "list": [
+  //         0,
+  //         1,
+  //         2,
+  //         3,
+  //         4
+  //       ]
+  //     },
+  //     "backgroundColor": "",
+  //     "titleDisplay": {
+  //       "text": "",
+  //       "xPosition": "center",
+  //       "yPosition": "top",
+  //       "fontSize": "16",
+  //       "color": "#000000",
+  //       "fontFamily": "Noto Sans",
+  //       "show": false
+  //     },
+  //   },
+  //   "function_type": [
+  //     "趋势类"
+  //   ],
+  //   "chart_type": "线形图",
+  //   "title": "多条阶梯折线图",
+  //   "thumb": "https://image.dydata.io/Biwgk5YpZZCctseHmaC7ok.jpg?imageView2/2/w/500/quality/90"
+  // },
   {
     "projectId": "4544734748594536434",
     "blockId": "155193846451462384",
@@ -1237,24 +1009,26 @@ export const chartTemplateList = [
     "isFree": "1",
     "templateSwitch": "cross",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -1268,6 +1042,7 @@ export const chartTemplateList = [
       "axis": {
         "color": "#313131"
       },
+      "shapeColor": 1,
       "price": "0.0"
     },
     "props": {
@@ -1278,18 +1053,16 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
-            "name": "对象",
-            "index": 0,
-            "allowType": [
-              "string"
-            ],
-            "isLegend": false,
-            "function": "objCol",
-            "configurable": false
-          }
-        ]
+        [{
+          "name": "对象",
+          "index": 0,
+          "allowType": [
+            "string"
+          ],
+          "isLegend": false,
+          "function": "objCol",
+          "configurable": false
+        }]
       ],
       "legend": {
         "show": true,
@@ -1298,10 +1071,10 @@ export const chartTemplateList = [
       },
       "axis": {
         "grid": {
-          "show": null,
-          "color": "#ccc"
+          "show": "x",
+          "color": "#e9e9e9"
         },
-        "color": "#313131",
+        "color": "#bfbfbf",
         "x": {
           "labelShow": true,
           "name": "",
@@ -1319,9 +1092,17 @@ export const chartTemplateList = [
         "fontFamily": "noto"
       },
       "label": {
-        "display": true,
-        "positionOptions": ['上面', '下面'],
-        "positionChoice": '上面'
+        "display": false,
+        "positionOptions": [
+          "上面",
+          "下面"
+        ],
+        "positionChoice": "上面",
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
       },
       "tooltip": true,
       "colors": {
@@ -1339,7 +1120,7 @@ export const chartTemplateList = [
         "text": "",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
         "show": false
@@ -1403,24 +1184,26 @@ export const chartTemplateList = [
     "isFree": "0",
     "templateSwitch": "key-value",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -1434,6 +1217,7 @@ export const chartTemplateList = [
       "axis": {
         "color": "#313131"
       },
+      "shapeColor": 1,
       "price": "0.0"
     },
     "props": {
@@ -1444,8 +1228,7 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
+        [{
             "name": "名称",
             "index": 0,
             "allowType": [
@@ -1474,14 +1257,14 @@ export const chartTemplateList = [
       },
       "axis": {
         "grid": {
-          "show": null,
-          "color": "#ccc"
+          "show": "x",
+          "color": "#e9e9e9"
         },
-        "color": "#313131",
+        "color": "#bfbfbf",
         "x": {
           "labelShow": true,
           "name": "",
-          "range": []
+          range: []
         },
         "y": {
           "labelShow": true,
@@ -1495,9 +1278,17 @@ export const chartTemplateList = [
         "fontFamily": "noto"
       },
       "label": {
-        "display": true,
-        "positionOptions": ['上面', '内部居下'],
-        "positionChoice": '上面'
+        "display": false,
+        "positionOptions": [
+          "上面",
+          "内部居下"
+        ],
+        "positionChoice": "上面",
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
       },
       "tooltip": true,
       "colors": {
@@ -1511,7 +1302,7 @@ export const chartTemplateList = [
         "text": "",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
         "show": false
@@ -1524,188 +1315,197 @@ export const chartTemplateList = [
     "title": "基础柱状图",
     "thumb": "https://image.dydata.io/S9mQy7TtDPRefubPR9f5hY.jpg?imageView2/2/w/500/quality/90"
   },
-  {
-    "projectId": "3612096174443311105",
-    "blockId": "155193846448389252",
-    "type": "chart",
-    "dataSrc": {
-      "srcType": "local",
-      "dataType": "cross-table",
-      "data": [
-        [
-          [
-            "省份",
-            "全国",
-            "北京市",
-            "上海市",
-            "广州市",
-            "深圳市"
-          ],
-          [
-            2008,
-            3800,
-            12418,
-            8195,
-            9123,
-            12665
-          ],
-          [
-            2010,
-            5032,
-            17782,
-            14464,
-            11921,
-            19170
-          ],
-          [
-            2012,
-            5790.99,
-            17021.63,
-            14061.37,
-            13162.67,
-            19589.82
-          ],
-          [
-            2014,
-            6324,
-            18833,
-            16787,
-            15719,
-            24723
-          ],
-          [
-            2016,
-            7476,
-            27497,
-            24747,
-            16384,
-            45146
-          ]
-        ]
-      ],
-      "url": "",
-      "download": false
-    },
-    "label": "<e-barmultiple-chart>",
-    "templateId": "3612096174443311105",
-    "isFree": "0",
-    "templateSwitch": "cross",
-    "theme": {
-      "themeId": "16",
-      "name": "默认主题",
-      "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
-      ],
-      "fonts": {
-        "fontSize": "13",
-        "color": "#313131",
-        "fontFamily": "noto"
-      },
-      "grid": {
-        "color": "#ccc"
-      },
-      "backgroundColor": "#FFFFFF",
-      "axis": {
-        "color": "#313131"
-      },
-      "price": "20.0"
-    },
-    "props": {
-      "size": {
-        "height": "400",
-        "width": "500",
-        "ratio": null,
-        "rotate": 0
-      },
-      "map": [
-        [
-          {
-            "name": "X轴对象",
-            "index": 0,
-            "allowType": [
-              "string"
-            ],
-            "isLegend": false,
-            "function": "objCol",
-            "configurable": false
-          }
-        ]
-      ],
-      "legend": {
-        "show": true,
-        "xPosition": "center",
-        "yPosition": "bottom"
-      },
-      "axis": {
-        "grid": {
-          "show": null,
-          "color": "#ccc"
-        },
-        "color": "#313131",
-        "x": {
-          "labelShow": true,
-          "name": "",
-          "range": []
-        },
-        "y": {
-          "labelShow": true,
-          "name": "",
-          "range": []
-        }
-      },
-      "font": {
-        "fontSize": "13",
-        "color": "#313131",
-        "fontFamily": "noto"
-      },
-      "label": {
-        "display": true,
-        "positionOptions": ['上面', '内部居下'],
-        "positionChoice": '上面'
-      },
-      "tooltip": true,
-      "colors": {
-        "type": "multiple",
-        "list": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ]
-      },
-      "backgroundColor": "",
-      "titleDisplay": {
-        "text": "",
-        "xPosition": "center",
-        "yPosition": "top",
-        "fontSize": "14",
-        "color": "#000000",
-        "fontFamily": "Noto Sans",
-        "show": false
-      },
-    },
-    "function_type": [
-      "比较类"
-    ],
-    "chart_type": "柱状图",
-    "title": "分组柱状图",
-    "thumb": "https://image.dydata.io/CYVkrHvBASa6Nz3aUSHPSj.jpg?imageView2/2/w/500/quality/90"
-  },
+  // {
+  //   "projectId": "3612096174443311105",
+  //   "blockId": "155193846448389252",
+  //   "type": "chart",
+  //   "dataSrc": {
+  //     "srcType": "local",
+  //     "dataType": "cross-table",
+  //     "data": [
+  //       [
+  //         [
+  //           "省份",
+  //           "全国",
+  //           "北京市",
+  //           "上海市",
+  //           "广州市",
+  //           "深圳市"
+  //         ],
+  //         [
+  //           2008,
+  //           3800,
+  //           12418,
+  //           8195,
+  //           9123,
+  //           12665
+  //         ],
+  //         [
+  //           2010,
+  //           5032,
+  //           17782,
+  //           14464,
+  //           11921,
+  //           19170
+  //         ],
+  //         [
+  //           2012,
+  //           5790.99,
+  //           17021.63,
+  //           14061.37,
+  //           13162.67,
+  //           19589.82
+  //         ],
+  //         [
+  //           2014,
+  //           6324,
+  //           18833,
+  //           16787,
+  //           15719,
+  //           24723
+  //         ],
+  //         [
+  //           2016,
+  //           7476,
+  //           27497,
+  //           24747,
+  //           16384,
+  //           45146
+  //         ]
+  //       ]
+  //     ],
+  //     "url": "",
+  //     "download": false
+  //   },
+  //   "label": "<e-barmultiple-chart>",
+  //   "templateId": "3612096174443311105",
+  //   "isFree": "0",
+  //   "templateSwitch": "cross",
+  //   "theme": {
+  //     "_id": 17,
+  //     "themeId": "17",
+  //     "name": "默认主题",
+  //     "thumb": "https://ss1.dydata.io/v2/themes/17.png",
+  //     "colors": [
+  //       "#4150d8",
+  //       "#28bf7e",
+  //       "#ed7c2f",
+  //       "#f2a93b",
+  //       "#f9cf36",
+  //       "#4a5bdc",
+  //       "#4cd698",
+  //       "#f4914e",
+  //       "#fcb75b",
+  //       "#ffe180",
+  //       "#b6c2ff",
+  //       "#96edc1",
+  //       "#ffbe92",
+  //       "#ffd6ae",
+  //       "#ffecb6"
+  //     ],
+  //     "fonts": {
+  //       "fontSize": "13",
+  //       "color": "#313131",
+  //       "fontFamily": "noto"
+  //     },
+  //     "grid": {
+  //       "color": "#ccc"
+  //     },
+  //     "backgroundColor": "#FFFFFF",
+  //     "axis": {
+  //       "color": "#313131"
+  //     },
+  //     "shapeColor": 1,
+  //     "price": "0.0"
+  //   },
+  //   "props": {
+  //     "size": {
+  //       "height": "400",
+  //       "width": "500",
+  //       "ratio": null,
+  //       "rotate": 0
+  //     },
+  //     "map": [
+  //       [{
+  //         "name": "X轴对象",
+  //         "index": 0,
+  //         "allowType": [
+  //           "string"
+  //         ],
+  //         "isLegend": false,
+  //         "function": "objCol",
+  //         "configurable": false
+  //       }]
+  //     ],
+  //     "legend": {
+  //       "show": true,
+  //       "xPosition": "center",
+  //       "yPosition": "bottom"
+  //     },
+  //     "axis": {
+  //       "grid": {
+  //         "show": "x",
+  //         "color": "#e9e9e9"
+  //       },
+  //       "color": "#bfbfbf",
+  //       "x": {
+  //         "labelShow": true,
+  //         "name": "",
+  //         "range": []
+  //       },
+  //       "y": {
+  //         "labelShow": true,
+  //         "name": "",
+  //         "range": []
+  //       }
+  //     },
+  //     "font": {
+  //       "fontSize": "13",
+  //       "color": "#313131",
+  //       "fontFamily": "noto"
+  //     },
+  //     "label": {
+  //       "display": false,
+  //       "positionOptions": [
+  //         "上面",
+  //         "内部居下"
+  //       ],
+  //       "positionChoice": "上面",
+  //       "textLabel": {
+  //         "fontSize": 12,
+  //         "color": "#313131",
+  //         "fontFamily": "noto"
+  //       }
+  //     },
+  //     "tooltip": true,
+  //     "colors": {
+  //       "type": "multiple",
+  //       "list": [
+  //         0,
+  //         1,
+  //         2,
+  //         3,
+  //         4
+  //       ]
+  //     },
+  //     "backgroundColor": "",
+  //     "titleDisplay": {
+  //       "text": "",
+  //       "xPosition": "center",
+  //       "yPosition": "top",
+  //       "fontSize": "16",
+  //       "color": "#000000",
+  //       "fontFamily": "Noto Sans",
+  //       "show": false
+  //     },
+  //   },
+  //   "function_type": [
+  //     "比较类"
+  //   ],
+  //   "chart_type": "柱状图",
+  //   "title": "分组柱状图",
+  //   "thumb": "https://image.dydata.io/CYVkrHvBASa6Nz3aUSHPSj.jpg?imageView2/2/w/500/quality/90"
+  // },
   {
     "projectId": "3612096174443311107",
     "blockId": "155193846453436874",
@@ -1773,24 +1573,26 @@ export const chartTemplateList = [
     "isFree": "0",
     "templateSwitch": "cross",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -1804,6 +1606,7 @@ export const chartTemplateList = [
       "axis": {
         "color": "#313131"
       },
+      "shapeColor": 1,
       "price": "0.0"
     },
     "props": {
@@ -1814,18 +1617,16 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
-            "name": "X轴对象",
-            "index": 0,
-            "allowType": [
-              "string"
-            ],
-            "isLegend": false,
-            "function": "objCol",
-            "configurable": false
-          }
-        ]
+        [{
+          "name": "X轴对象",
+          "index": 0,
+          "allowType": [
+            "string"
+          ],
+          "isLegend": false,
+          "function": "objCol",
+          "configurable": false
+        }]
       ],
       "legend": {
         "show": true,
@@ -1834,10 +1635,10 @@ export const chartTemplateList = [
       },
       "axis": {
         "grid": {
-          "show": null,
-          "color": "#ccc"
+          "show": "x",
+          "color": "#e9e9e9"
         },
-        "color": "#313131",
+        "color": "#bfbfbf",
         "x": {
           "labelShow": true,
           "name": "",
@@ -1855,9 +1656,17 @@ export const chartTemplateList = [
         "fontFamily": "noto"
       },
       "label": {
-        "display": true,
-        "positionOptions": ['内部居中', '内部居下'],
-        "positionChoice": '内部居中'
+        "display": false,
+        "positionOptions": [
+          "内部居中",
+          "内部居下"
+        ],
+        "positionChoice": "内部居中",
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
       },
       "tooltip": true,
       "colors": {
@@ -1875,7 +1684,7 @@ export const chartTemplateList = [
         "text": "",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
         "show": false
@@ -2180,24 +1989,26 @@ export const chartTemplateList = [
     "isFree": "1",
     "templateSwitch": "obj-n-value",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -2211,6 +2022,7 @@ export const chartTemplateList = [
       "axis": {
         "color": "#313131"
       },
+      "shapeColor": 1,
       "price": "0.0"
     },
     "props": {
@@ -2221,8 +2033,7 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
+        [{
             "name": "X轴",
             "index": 2,
             "allowType": [
@@ -2281,7 +2092,7 @@ export const chartTemplateList = [
       },
       "axis": {
         "grid": {
-          "show": null,
+          "show": "x",
           "color": "#ccc"
         },
         "color": "#313131",
@@ -2314,7 +2125,7 @@ export const chartTemplateList = [
         "text": "",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
         "show": false
@@ -2391,24 +2202,26 @@ export const chartTemplateList = [
     "isFree": "0",
     "templateSwitch": "cross",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -2422,7 +2235,8 @@ export const chartTemplateList = [
       "axis": {
         "color": "#313131"
       },
-      "price": "20.0"
+      "shapeColor": 1,
+      "price": "0.0"
     },
     "props": {
       "size": {
@@ -2432,18 +2246,16 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
-            "name": "对象",
-            "index": 0,
-            "allowType": [
-              "string"
-            ],
-            "isLegend": true,
-            "function": "objCol",
-            "configurable": false
-          }
-        ]
+        [{
+          "name": "对象",
+          "index": 0,
+          "allowType": [
+            "string"
+          ],
+          "isLegend": true,
+          "function": "objCol",
+          "configurable": false
+        }]
       ],
       "legend": {
         "show": true,
@@ -2465,7 +2277,12 @@ export const chartTemplateList = [
         "fontFamily": "noto"
       },
       "label": {
-        "display": true
+        "display": false,
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
       },
       "tooltip": true,
       "colors": {
@@ -2481,7 +2298,7 @@ export const chartTemplateList = [
         "text": "",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
         "show": false
@@ -2537,24 +2354,26 @@ export const chartTemplateList = [
     "isFree": "1",
     "templateSwitch": "key-value",
     "theme": {
-      "themeId": "16",
+      "_id": 17,
+      "themeId": "17",
       "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
       "colors": [
-        "#00aeef",
-        "#c759a1",
-        "#5552a3",
-        "#00bef3",
-        "#d07cb3",
-        "#6a65ad",
-        "#6ecff6",
-        "#dda6cc",
-        "#908ac2",
-        "#afe2fa",
-        "#e7c4dd",
-        "#b5b1d8",
-        "#d2eefc",
-        "#f0ddec",
-        "#d5d2ea"
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
       ],
       "fonts": {
         "fontSize": "13",
@@ -2568,6 +2387,7 @@ export const chartTemplateList = [
       "axis": {
         "color": "#313131"
       },
+      "shapeColor": 1,
       "price": "0.0"
     },
     "props": {
@@ -2578,8 +2398,7 @@ export const chartTemplateList = [
         "rotate": 0
       },
       "map": [
-        [
-          {
+        [{
             "name": "名称",
             "index": 0,
             "allowType": [
@@ -2614,8 +2433,19 @@ export const chartTemplateList = [
       },
       "label": {
         "display": true,
-        "contentOption": ['名称', '百分比', '数值'],
-        "contentChoice": ['名称', '百分比', '数值']
+        "contentOption": [
+          "名称",
+          "百分比",
+          "数值"
+        ],
+        "contentChoice": [
+          "名称"
+        ],
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
       },
       "tooltip": true,
       "colors": {
@@ -2633,7 +2463,7 @@ export const chartTemplateList = [
         "text": "",
         "xPosition": "center",
         "yPosition": "top",
-        "fontSize": "14",
+        "fontSize": "16",
         "color": "#000000",
         "fontFamily": "Noto Sans",
         "show": false
@@ -2645,5 +2475,1515 @@ export const chartTemplateList = [
     "chart_type": "漏斗图",
     "title": "漏斗图",
     "thumb": "https://image.dydata.io/5R2vjRGb3R1wxoY1vAPJ8J.jpg?imageView2/2/w/500/quality/90"
-  }
+  },
+  {
+    "projectId": "154777820323716078",
+    "blockId": "156016368764276462",
+    "type": "chart",
+    "dataSrc": {
+      "srcType": "local",
+      "dataType": "object-table",
+      "data": [
+        [
+          [
+            "名称",
+            "进度"
+          ],
+          [
+            "开发进度",
+            "0.70"
+          ]
+        ]
+      ],
+      "url": "",
+      "download": false
+    },
+    "label": "<d-half-progress-pie-chart>",
+    "templateId": "154777820323716078",
+    "templateSwitch": "key-value",
+    "theme": {
+      "_id": 17,
+      "themeId": "17",
+      "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
+      "colors": [
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
+      ],
+      "fonts": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "grid": {
+        "color": "#ccc"
+      },
+      "backgroundColor": "#FFFFFF",
+      "axis": {
+        "color": "#313131"
+      },
+      "shapeColor": 1,
+      "price": "0.0"
+    },
+    "props": {
+      "size": {
+        "height": "400",
+        "width": "500",
+        "ratio": null,
+        "rotate": 0
+      },
+      "display": {
+        "innerRadiusRatio": 0.7,
+        "cornerRadius": 0,
+        "areaBorderWidth": 11,
+        "areaBorderColor": "none"
+      },
+      "label": {
+        "numberLabel": {
+          "show": true,
+          "fontSize": 35,
+          "color": 0,
+          "fontFamily": "noto"
+        },
+        "textLabel": {
+          "show": true,
+          "fontSize": 25,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
+      },
+      "map": [
+        [{
+            "name": "名称",
+            "index": 0,
+            "allowType": [
+              "string"
+            ],
+            "isLegend": true,
+            "function": "objCol",
+            "configurable": false
+          },
+          {
+            "name": "值",
+            "index": 1,
+            "allowType": [
+              "number"
+            ],
+            "isLegend": true,
+            "function": "vCol",
+            "configurable": false
+          }
+        ]
+      ],
+      "legend": {
+        "show": true,
+        "xPosition": "center",
+        "yPosition": "bottom"
+      },
+      "font": {
+        "fontSize": "15",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "tooltip": true,
+      "colors": {
+        "type": "multiple",
+        "list": [
+          0,
+          14
+        ]
+      },
+      "backgroundColor": "",
+      "titleDisplay": {
+        "text": "",
+        "xPosition": "center",
+        "yPosition": "top",
+        "fontSize": "16",
+        "color": "#000000",
+        "fontFamily": "Noto Sans",
+        "show": false
+      }
+    },
+    "function_type": [
+      "占比类"
+    ],
+    "chart_type": "仪表盘",
+    "title": "半圆环进度图",
+    "thumb": "https://image.dydata.io/progresshalfcircle.jpg?imageView2/2/w/500/quality/90",
+    "isFree": "0"
+  },
+  {
+    "projectId": "4447460703254610031",
+    "blockId": "155927511400955813",
+    "type": "chart",
+    "dataSrc": {
+      "srcType": "local",
+      "dataType": "object-table",
+      "data": [
+        [
+          [
+            "国家",
+            "比例"
+          ],
+          [
+            "俄罗斯",
+            85
+          ],
+          [
+            "塞内加尔",
+            74
+          ],
+          [
+            "瑞典",
+            62
+          ],
+          [
+            "日本",
+            57
+          ],
+          [
+            "比利时",
+            50
+          ],
+          [
+            "巴西",
+            43
+          ],
+          [
+            "法国",
+            37
+          ],
+          [
+            "突尼斯",
+            33
+          ],
+          [
+            "乌拉圭",
+            28
+          ],
+          [
+            "巴拿马",
+            19
+          ]
+        ]
+      ],
+      "url": "",
+      "download": false
+    },
+    "label": "<d-liquid-fill-gauge-chart>",
+    "templateId": "4447460703254610031",
+    "isFree": "0",
+    "templateSwitch": "key-value",
+    "theme": {
+      "_id": 17,
+      "themeId": "17",
+      "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
+      "colors": [
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
+      ],
+      "fonts": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "grid": {
+        "color": "#ccc"
+      },
+      "backgroundColor": "#FFFFFF",
+      "axis": {
+        "color": "#313131"
+      },
+      "shapeColor": 1,
+      "price": "0.0"
+    },
+    "props": {
+      "size": {
+        "height": "400",
+        "width": "500",
+        "ratio": null,
+        "rotate": 0
+      },
+      "map": [
+        [{
+            "name": "名称",
+            "index": 0,
+            "allowType": [
+              "string"
+            ],
+            "isLegend": true,
+            "function": "objCol",
+            "configurable": false
+          },
+          {
+            "name": "值",
+            "index": 1,
+            "allowType": [
+              "number"
+            ],
+            "isLegend": false,
+            "function": "vCol",
+            "configurable": false
+          }
+        ]
+      ],
+      "legend": {
+        "show": true,
+        "xPosition": "center",
+        "yPosition": "bottom"
+      },
+      "axis": null,
+      "font": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "tooltip": true,
+      "colors": {
+        "type": "multiple",
+        "list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "backgroundColor": "",
+      "titleDisplay": {
+        "text": "",
+        "xPosition": "center",
+        "yPosition": "top",
+        "fontSize": "16",
+        "color": "#000000",
+        "fontFamily": "Noto Sans",
+        "show": false
+      }
+    },
+    "title": "水波图",
+    "thumb": "https://image.dydata.io/4MXZMLtWYpg2zEXEuepeT6.jpg?imageView2/2/w/500/quality/90",
+    "function_type": [
+      "比较类",
+      "占比类"
+    ],
+    "chart_type": "其他"
+  },
+  {
+    "projectId": "5945734748594536331",
+    "blockId": "156102120655979362",
+    "type": "chart",
+    "dataSrc": {
+      "srcType": "local",
+      "dataType": "object-table",
+      "data": [
+        [
+          [
+            "独角兽企业类型",
+            "比例（%）"
+          ],
+          [
+            "电子商务",
+            16.2
+          ],
+          [
+            "网络金融",
+            15.6
+          ],
+          [
+            "文化娱乐",
+            11.7
+          ],
+          [
+            "汽车交通",
+            10.4
+          ],
+          [
+            "智能硬件",
+            6.5
+          ],
+          [
+            "在线医疗",
+            3.9
+          ],
+          [
+            "人工智能",
+            3.4
+          ]
+        ]
+      ],
+      "url": "",
+      "download": false
+    },
+    "label": "<d-radialbar-chart>",
+    "templateId": "5945734748594536331",
+    "isFree": "0",
+    "templateSwitch": "key-value",
+    "theme": {
+      "_id": 17,
+      "themeId": "17",
+      "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
+      "colors": [
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
+      ],
+      "fonts": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "grid": {
+        "color": "#ccc"
+      },
+      "backgroundColor": "#FFFFFF",
+      "axis": {
+        "color": "#313131"
+      },
+      "shapeColor": 1,
+      "price": "0.0"
+    },
+    "props": {
+      "size": {
+        "height": "400",
+        "width": "500",
+        "ratio": null,
+        "rotate": 0
+      },
+      "map": [
+        [{
+            "name": "名称",
+            "index": 0,
+            "allowType": [
+              "string"
+            ],
+            "isLegend": true,
+            "function": "objCol",
+            "configurable": false
+          },
+          {
+            "name": "值",
+            "index": 1,
+            "allowType": [
+              "number"
+            ],
+            "isLegend": false,
+            "function": "vCol",
+            "configurable": false
+          }
+        ]
+      ],
+      "legend": {
+        "show": true,
+        "xPosition": "center",
+        "yPosition": "bottom"
+      },
+      "axis": null,
+      "label": {
+        "display": true,
+        "positionOptions": [
+          "外部",
+          "内部居左",
+          "内部居右"
+        ],
+        "positionChoice": "内部居右",
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
+      },
+      "font": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "tooltip": true,
+      "colors": {
+        "type": "multiple",
+        "list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "backgroundColor": "",
+      "titleDisplay": {
+        "text": "",
+        "xPosition": "center",
+        "yPosition": "top",
+        "fontSize": "16",
+        "color": "#000000",
+        "fontFamily": "Noto Sans",
+        "show": false
+      }
+    },
+    "function_type": [
+      "比较类"
+    ],
+    "chart_type": "极坐标图",
+    "title": "玉玦图",
+    "thumb": "https://image.dydata.io/8AWxS9FDGuLQToJPx7oMKe.jpg?imageView2/2/w/500/quality/90"
+  },
+  {
+    "projectId": "5944734748594536331",
+    "blockId": "156102110873014598",
+    "type": "chart",
+    "dataSrc": {
+      "srcType": "local",
+      "dataType": "object-table",
+      "data": [
+        [
+          [
+            "国家",
+            "花费"
+          ],
+          [
+            "中国",
+            "96"
+          ],
+          [
+            "德国",
+            "121"
+          ],
+          [
+            "美国",
+            "100"
+          ],
+          [
+            "日本",
+            "111"
+          ],
+          [
+            "韩国",
+            "102"
+          ],
+          [
+            "法国",
+            "124"
+          ],
+          [
+            "意大利",
+            "123"
+          ],
+          [
+            "荷兰",
+            "111"
+          ],
+          [
+            "比利时",
+            "123"
+          ],
+          [
+            "英国",
+            "109"
+          ],
+          [
+            "加拿大",
+            "115"
+          ],
+          [
+            "俄罗斯",
+            "99"
+          ],
+          [
+            "墨西哥",
+            "91"
+          ],
+          [
+            "印度",
+            "87"
+          ],
+          [
+            "瑞士",
+            "125"
+          ],
+          [
+            "澳大利亚",
+            "130"
+          ],
+          [
+            "西班牙",
+            "109"
+          ],
+          [
+            "巴西",
+            "123"
+          ]
+        ]
+      ],
+      "url": "",
+      "download": false
+    },
+    "label": "<d-Rose2-chart>",
+    "templateId": "5944734748594536331",
+    "isFree": "1",
+    "templateSwitch": "key-value",
+    "theme": {
+      "_id": 17,
+      "themeId": "17",
+      "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
+      "colors": [
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
+      ],
+      "fonts": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "grid": {
+        "color": "#ccc"
+      },
+      "backgroundColor": "#FFFFFF",
+      "axis": {
+        "color": "#313131"
+      },
+      "shapeColor": 1,
+      "price": "0.0"
+    },
+    "props": {
+      "size": {
+        "height": "400",
+        "width": "500",
+        "ratio": null,
+        "rotate": 0
+      },
+      "map": [
+        [{
+            "name": "名称",
+            "index": 0,
+            "allowType": [
+              "string"
+            ],
+            "isLegend": false,
+            "function": "objCol",
+            "configurable": false
+          },
+          {
+            "name": "值",
+            "index": 1,
+            "allowType": [
+              "number"
+            ],
+            "isLegend": true,
+            "function": "vCol",
+            "configurable": false
+          }
+        ]
+      ],
+      "legend": {
+        "show": true,
+        "xPosition": "center",
+        "yPosition": "bottom"
+      },
+      "axis": {
+        "grid": {
+          "show": "all",
+          "color": "#e9e9e9"
+        },
+        "color": "#bfbfbf",
+        "x": null,
+        "y": null
+      },
+      "label": {
+        "display": true,
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
+      },
+      "font": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "tooltip": true,
+      "colors": {
+        "type": "multiple",
+        "list": [
+          0,
+          1
+        ]
+      },
+      "backgroundColor": "",
+      "titleDisplay": {
+        "text": "",
+        "xPosition": "center",
+        "yPosition": "top",
+        "fontSize": "16",
+        "color": "#000000",
+        "fontFamily": "Noto Sans",
+        "show": false
+      }
+    },
+    "function_type": [
+      "比较类"
+    ],
+    "chart_type": "极坐标图",
+    "title": "玫瑰图",
+    "thumb": "https://image.dydata.io/YVLmRojEG564VMaFTzMdky.jpg?imageView2/2/w/500/quality/90"
+  },
+  {
+    "projectId": "5543733748594536504",
+    "blockId": "155927511300587108",
+    "type": "chart",
+    "dataSrc": {
+      "srcType": "local",
+      "dataType": "object-table",
+      "data": [
+        [
+          [
+            "source",
+            "target",
+            "人数"
+          ],
+          [
+            "男",
+            "华为",
+            1100
+          ],
+          [
+            "男",
+            "苹果",
+            730
+          ],
+          [
+            "男",
+            "小米",
+            680
+          ],
+          [
+            "男",
+            "OPPO",
+            630
+          ],
+          [
+            "男",
+            "vivo",
+            530
+          ],
+          [
+            "男",
+            "其他",
+            1630
+          ],
+          [
+            "女",
+            "华为",
+            680
+          ],
+          [
+            "女",
+            "苹果",
+            1080
+          ],
+          [
+            "女",
+            "小米",
+            370
+          ],
+          [
+            "女",
+            "OPPO",
+            850
+          ],
+          [
+            "女",
+            "vivo",
+            630
+          ],
+          [
+            "女",
+            "其他",
+            1090
+          ],
+          [
+            "华为",
+            "45岁以上",
+            135
+          ],
+          [
+            "华为",
+            "35-44岁",
+            319
+          ],
+          [
+            "华为",
+            "25-34岁",
+            986
+          ],
+          [
+            "华为",
+            "18-24岁",
+            240
+          ],
+          [
+            "华为",
+            "18岁以下",
+            100
+          ],
+          [
+            "苹果",
+            "45岁以上",
+            80
+          ],
+          [
+            "苹果",
+            "35-44岁",
+            121
+          ],
+          [
+            "苹果",
+            "25-34岁",
+            659
+          ],
+          [
+            "苹果",
+            "18-24岁",
+            545
+          ],
+          [
+            "苹果",
+            "18岁以下",
+            405
+          ],
+          [
+            "小米",
+            "45岁以上",
+            55
+          ],
+          [
+            "小米",
+            "35-44岁",
+            117
+          ],
+          [
+            "小米",
+            "25-34岁",
+            655
+          ],
+          [
+            "小米",
+            "18-24岁",
+            138
+          ],
+          [
+            "小米",
+            "18岁以下",
+            85
+          ],
+          [
+            "OPPO",
+            "45岁以上",
+            67
+          ],
+          [
+            "OPPO",
+            "35-44岁",
+            148
+          ],
+          [
+            "OPPO",
+            "25-34岁",
+            598
+          ],
+          [
+            "OPPO",
+            "18-24岁",
+            466
+          ],
+          [
+            "OPPO",
+            "18岁以下",
+            201
+          ],
+          [
+            "vivo",
+            "45岁以上",
+            39
+          ],
+          [
+            "vivo",
+            "35-44岁",
+            85
+          ],
+          [
+            "vivo",
+            "25-34岁",
+            611
+          ],
+          [
+            "vivo",
+            "18-24岁",
+            290
+          ],
+          [
+            "vivo",
+            "18岁以下",
+            135
+          ],
+          [
+            "其他",
+            "45岁以上",
+            141
+          ],
+          [
+            "其他",
+            "35-44岁",
+            307
+          ],
+          [
+            "其他",
+            "25-34岁",
+            1336
+          ],
+          [
+            "其他",
+            "18-24岁",
+            594
+          ],
+          [
+            "其他",
+            "18岁以下",
+            342
+          ]
+        ]
+      ],
+      "url": "",
+      "download": false
+    },
+    "label": "<d-horizontal-sankey-chart>",
+    "templateId": "5543733748594536504",
+    "isFree": "1",
+    "templateSwitch": "sankey",
+    "theme": {
+      "_id": 17,
+      "themeId": "17",
+      "name": "默认主题",
+      "thumb": "https://ss1.dydata.io/v2/themes/17.png",
+      "colors": [
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
+      ],
+      "fonts": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "grid": {
+        "color": "#ccc"
+      },
+      "backgroundColor": "#FFFFFF",
+      "axis": {
+        "color": "#313131"
+      },
+      "shapeColor": 1,
+      "price": "0.0"
+    },
+    "props": {
+      "size": {
+        "height": "400",
+        "width": "500",
+        "ratio": null,
+        "rotate": 0
+      },
+      "map": [
+        [{
+            "name": "起始项",
+            "index": 0,
+            "allowType": [
+              "string"
+            ],
+            "isLegend": true,
+            "function": "objCol",
+            "configurable": false
+          },
+          {
+            "name": "目标项",
+            "index": 1,
+            "allowType": [
+              "string"
+            ],
+            "isLegend": true,
+            "function": "targetCol",
+            "configurable": false
+          },
+          {
+            "name": "数值",
+            "index": 2,
+            "allowType": [
+              "number"
+            ],
+            "isLegend": false,
+            "function": "vCol",
+            "configurable": false
+          }
+        ]
+      ],
+      "legend": {
+        "show": true,
+        "xPosition": "center",
+        "yPosition": "bottom"
+      },
+      "axis": null,
+      "font": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "tooltip": true,
+      "colors": {
+        "type": "multiple",
+        "list": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      "backgroundColor": "",
+      "titleDisplay": {
+        "text": "",
+        "xPosition": "center",
+        "yPosition": "top",
+        "fontSize": "16",
+        "color": "#000000",
+        "fontFamily": "Noto Sans",
+        "show": false
+      }
+    },
+    "title": "桑基图",
+    "thumb": "https://image.dydata.io/GAn9rzy6Hyg9PJTjc2RToc.jpg?imageView2/2/w/500/quality/90",
+    "function_type": [
+      "流向类"
+    ],
+    "chart_type": "桑基图"
+  },
+  {
+    "projectId": "5544734748594536503",
+    "blockId": "156102097535348607",
+    "type": "chart",
+    "dataSrc": {
+      "srcType": "local",
+      "dataType": "object-table",
+      "data": [
+        [
+          [
+            "旅行目的",
+            "占比（%）"
+          ],
+          [
+            "放松心情",
+            82
+          ],
+          [
+            "品尝美食",
+            42.89
+          ],
+          [
+            "观赏风景",
+            25.62
+          ],
+          [
+            "圣地巡游",
+            16
+          ],
+          [
+            "观看赛事",
+            8
+          ]
+        ]
+      ],
+      "url": "",
+      "download": false
+    },
+    "label": "<d-one-level-treemap-chart>",
+    "templateId": "5544734748594536503",
+    "isFree": "0",
+    "templateSwitch": "key-value",
+    "theme": {
+      "_id": 17,
+      "themeId": "17",
+      "name": "默认主题",
+      "colors": [
+        "#4150d8",
+        "#28bf7e",
+        "#ed7c2f",
+        "#f2a93b",
+        "#f9cf36",
+        "#4a5bdc",
+        "#4cd698",
+        "#f4914e",
+        "#fcb75b",
+        "#ffe180",
+        "#b6c2ff",
+        "#96edc1",
+        "#ffbe92",
+        "#ffd6ae",
+        "#ffecb6"
+      ],
+      "fonts": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "grid": {
+        "color": "#ccc"
+      },
+      "backgroundColor": "#FFFFFF",
+      "axis": {
+        "color": "#313131"
+      },
+      "shapeColor": 1,
+      "price": "0.0"
+    },
+    "props": {
+      "size": {
+        "height": "400",
+        "width": "500",
+        "ratio": null,
+        "rotate": 0
+      },
+      "map": [
+        [{
+            "name": "名称",
+            "index": 0,
+            "allowType": [
+              "string"
+            ],
+            "isLegend": true,
+            "function": "objCol",
+            "configurable": false
+          },
+          {
+            "name": "值",
+            "index": 1,
+            "allowType": [
+              "number"
+            ],
+            "isLegend": false,
+            "function": "vCol",
+            "configurable": false
+          }
+        ]
+      ],
+      "legend": {
+        "show": true,
+        "xPosition": "center",
+        "yPosition": "bottom"
+      },
+      "axis": null,
+      "label": {
+        "display": true,
+        "positionOptions": [
+          "内部左上",
+          "内部居中"
+        ],
+        "positionChoice": "内部左上",
+        "contentOption": [
+          "名称",
+          "百分比",
+          "数值"
+        ],
+        "contentChoice": [
+          "名称",
+          "数值"
+        ],
+        "textLabel": {
+          "fontSize": 12,
+          "color": "#313131",
+          "fontFamily": "noto"
+        }
+      },
+      "font": {
+        "fontSize": "13",
+        "color": "#313131",
+        "fontFamily": "noto"
+      },
+      "tooltip": true,
+      "colors": {
+        "type": "multiple",
+        "list": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "backgroundColor": "",
+      "titleDisplay": {
+        "text": "",
+        "xPosition": "center",
+        "yPosition": "top",
+        "fontSize": "16",
+        "color": "#000000",
+        "fontFamily": "Noto Sans",
+        "show": false
+      }
+    },
+    "function_type": [
+      "占比类"
+    ],
+    "chart_type": "树图",
+    "title": "矩形树图（单层）",
+    "thumb": "https://image.dydata.io/SMjXZyGziv68hwoqWSV11t.jpg?imageView2/2/w/500/quality/90"
+  },
+  // {
+  //   "projectId": "156197375269051302",
+  //   "blockId": "156171278221441241",
+  //   "type": "chart",
+  //   "dataSrc": {
+  //     "srcType": "local",
+  //     "dataType": "cross-table",
+  //     "data": [
+  //       [
+  //         [
+  //           "月份",
+  //           "蒸发",
+  //           "降雨",
+  //           "蓄水"
+  //         ],
+  //         [
+  //           "1月",
+  //           2,
+  //           2.6,
+  //           2.9
+  //         ],
+  //         [
+  //           "2月",
+  //           4.9,
+  //           5.9,
+  //           5.9
+  //         ],
+  //         [
+  //           "3月",
+  //           7,
+  //           9,
+  //           9
+  //         ],
+  //         [
+  //           "4月",
+  //           23.2,
+  //           26.4,
+  //           26.4
+  //         ],
+  //         [
+  //           "5月",
+  //           25.6,
+  //           28.7,
+  //           28.7
+  //         ],
+  //         [
+  //           "6月",
+  //           76.7,
+  //           70.7,
+  //           70.7
+  //         ],
+  //         [
+  //           "7月",
+  //           135.6,
+  //           175.6,
+  //           175.6
+  //         ],
+  //         [
+  //           "8月",
+  //           162.2,
+  //           182.2,
+  //           192.2
+  //         ],
+  //         [
+  //           "9月",
+  //           32.6,
+  //           48.7,
+  //           48.7
+  //         ],
+  //         [
+  //           "10月",
+  //           20,
+  //           18.8,
+  //           18.8
+  //         ],
+  //         [
+  //           "11月",
+  //           6.4,
+  //           6,
+  //           6
+  //         ],
+  //         [
+  //           "12月",
+  //           3.3,
+  //           2.3,
+  //           2.4
+  //         ]
+  //       ]
+  //     ],
+  //     "url": "",
+  //     "download": false
+  //   },
+  //   "label": "<e-mixlinebar-chart>",
+  //   "templateId": "5544734748594536332",
+  //   "isFree": "1",
+  //   "templateSwitch": "cross",
+  //   "theme": {
+  //     "_id": 17,
+  //     "axis": {
+  //       "color": "#a1a1a1"
+  //     },
+  //     "backgroundColor": "#FFFFFF",
+  //     "colors": [
+  //       "#4150d8",
+  //       "#28bf7e",
+  //       "#ed7c2f",
+  //       "#f2a93b",
+  //       "#f9cf36",
+  //       "#4a5bdc",
+  //       "#4cd698",
+  //       "#f4914e",
+  //       "#fcb75b",
+  //       "#ffe180",
+  //       "#b6c2ff",
+  //       "#96edc1",
+  //       "#ffbe92",
+  //       "#ffd6ae",
+  //       "#ffecb6"
+  //     ],
+  //     "fonts": {
+  //       "color": "#545454",
+  //       "fontFamily": "noto",
+  //       "fontSize": "13"
+  //     },
+  //     "grid": {
+  //       "color": "#cccccc"
+  //     },
+  //     "name": "默认主题",
+  //     "price": "0.0",
+  //     "shapeColor": 1,
+  //     "themeId": "17",
+  //     "thumb": "https://ss1.dydata.io/v2/themes/17.png"
+  //   },
+  //   "props": {
+  //     "size": {
+  //       "height": 400,
+  //       "width": 500,
+  //       "ratio": null,
+  //       "rotate": 0
+  //     },
+  //     "map": [
+  //       [{
+  //         "name": "X轴对象",
+  //         "index": 0,
+  //         "allowType": [
+  //           "string"
+  //         ],
+  //         "isLegend": false,
+  //         "function": "objCol",
+  //         "configurable": false
+  //       },
+  //       {
+  //         "name": "折线列",
+  //         "index": 1,
+  //         "allowType": [
+  //           "number"
+  //         ],
+  //         "isLegend": false,
+  //         "function": "vCol",
+  //         "configurable": true
+  //       },
+  //       {
+  //         "name": "柱图列",
+  //         "index": 2,
+  //         "allowType": [
+  //           "number"
+  //         ],
+  //         "isLegend": false,
+  //         "function": "vCol",
+  //         "configurable": true
+  //       },
+  //       {
+  //         "name": "柱图列",
+  //         "index": 3,
+  //         "allowType": [
+  //           "number"
+  //         ],
+  //         "isLegend": false,
+  //         "function": "vCol",
+  //         "configurable": true
+  //       }
+  //       ]
+  //     ],
+  //     "legend": {
+  //       "show": true,
+  //       "xPosition": "center",
+  //       "yPosition": "bottom"
+  //     },
+  //     "axis": {
+  //       "grid": {
+  //         "show": "x",
+  //         "color": "#e9e9e9"
+  //       },
+  //       "color": "#bfbfbf",
+  //       "x": {
+  //         "labelShow": true,
+  //         "name": "",
+  //         "range": []
+  //       },
+  //       "y": {
+  //         "labelShow": true,
+  //         "name": "",
+  //         "range": [],
+  //         "measure": ""
+  //       },
+  //       "y1": {
+  //         "labelShow": true,
+  //         "name": "",
+  //         "range": [],
+  //         "measure": ""
+  //       }
+  //     },
+  //     "label": {
+  //       "bardisplay": false,
+  //       "barpositionOptions": [
+  //         "外部居上",
+  //         "内部居中",
+  //         "内部居下"
+  //       ],
+  //       "barpositionChoice": "内部居中",
+  //       "linedisplay": false,
+  //       "linepositionOptions": [
+  //         "上面",
+  //         "下面"
+  //       ],
+  //       "linepositionChoice": "上面",
+  //       "textLabel": {
+  //         "fontSize": 12,
+  //         "color": "#313131",
+  //         "fontFamily": "noto"
+  //       }
+  //     },
+  //     "font": {
+  //       "fontSize": "13",
+  //       "color": "#545454",
+  //       "fontFamily": "noto"
+  //     },
+  //     "tooltip": true,
+  //     "colors": {
+  //       "type": "multiple",
+  //       "list": [
+  //         0,
+  //         1,
+  //         2
+  //       ]
+  //     },
+  //     "backgroundColor": "",
+  //     "titleDisplay": {
+  //       "text": "",
+  //       "xPosition": "center",
+  //       "yPosition": "top",
+  //       "fontSize": "16",
+  //       "color": "#000000",
+  //       "fontFamily": "Noto Sans",
+  //       "show": false
+  //     }
+  //   },
+  //   "function_type": [
+  //     "比较类",
+  //     "趋势类"
+  //   ],
+  //   "chart_type": "柱状图",
+  //   "title": "折柱混合",
+  //   "thumb": "https://image.dydata.io/LqMetohaFPJrFwejafp2U.jpg?imageView2/2/w/500/quality/90",
+  //   "position": {
+  //     "top": 0,
+  //     "left": 0
+  //   }
+  // }
 ]

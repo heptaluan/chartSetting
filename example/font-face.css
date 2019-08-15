@@ -1,10 +1,51 @@
-@font-face{font-family:"Noto Sans";src:url('https://ss1.dydata.io/Noto-Sans-Regular.ttf');}
-@font-face{font-family:"Droid Sans Fallback";src:url('https://ss1.dydata.io/Droid-Sans-Fallback.ttf');}
-@font-face{font-family:"站酷高端黑";src:url('https://ss1.dydata.io/%E7%AB%99%E9%85%B7%E9%AB%98%E7%AB%AF%E9%BB%91.ttf');}
-@font-face{font-family:"方正黑体";src:url('https://ss1.dydata.io/%E6%96%B9%E6%AD%A3%E9%BB%91%E4%BD%93.ttf');}
-@font-face{font-family:"方正仿宋";src:url('https://ss1.dydata.io/%E6%96%B9%E6%AD%A3%E4%BB%BF%E5%AE%8B_GBK.ttf');}
-@font-face{font-family:"方正楷体";src:url('https://ss1.dydata.io/%E6%96%B9%E6%AD%A3%E6%A5%B7%E4%BD%93.ttf');}
-@font-face{font-family:"方正书宋简体";src:url('https://ss1.dydata.io/%E6%96%B9%E6%AD%A3%E4%B9%A6%E5%AE%8B%E7%AE%80%E4%BD%93.ttf');}
-@font-face{font-family:"思源黑体-细";src:url('https://ss1.dydata.io/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93-%E7%BB%86.otf');}
-@font-face{font-family:"思源黑体-中";src:url('https://ss1.dydata.io/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93-%E4%B8%AD.otf');}
-@font-face{font-family:"思源黑体-粗";src:url('https://ss1.dydata.io/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93-%E7%B2%97.otf');}
+@charset "utf-8";
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url('https://ss1.dydata.io/Noto-Sans-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Droid Sans Fallback";
+  src: url('https://ss1.dydata.io/Droid-Sans-Fallback.ttf');
+}
+
+@font-face {
+  font-family: "站酷高端黑";
+  src: url('https://ss1.dydata.io/%E7%AB%99%E9%85%B7%E9%AB%98%E7%AB%AF%E9%BB%91.ttf');
+}
+
+@font-face {
+  font-family: "方正黑体";
+  src: url('https://ss1.dydata.io/%E6%96%B9%E6%AD%A3%E9%BB%91%E4%BD%93.ttf');
+}
+
+@font-face {
+  font-family: "方正仿宋";
+  src: url('https://ss1.dydata.io/%E6%96%B9%E6%AD%A3%E4%BB%BF%E5%AE%8B_GBK.ttf');
+}
+
+@font-face {
+  font-family: "方正楷体";
+  src: url('https://ss1.dydata.io/%E6%96%B9%E6%AD%A3%E6%A5%B7%E4%BD%93.ttf');
+}
+
+@font-face {
+  font-family: "方正书宋简体";
+  src: url('https://ss1.dydata.io/%E6%96%B9%E6%AD%A3%E4%B9%A6%E5%AE%8B%E7%AE%80%E4%BD%93.ttf');
+}
+
+@font-face {
+  font-family: "思源黑体-细";
+  src: url('https://ss1.dydata.io/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93-%E7%BB%86.otf');
+}
+
+@font-face {
+  font-family: "思源黑体-中";
+  src: url('https://ss1.dydata.io/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93-%E4%B8%AD.otf');
+}
+
+@font-face {
+  font-family: "思源黑体-粗";
+  src: url('https://ss1.dydata.io/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93-%E7%B2%97.otf');
+}

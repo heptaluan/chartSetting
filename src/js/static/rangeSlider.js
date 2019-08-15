@@ -3,7 +3,8 @@ $.fn.RangeSlider = function (cfg) {
     min: cfg && !isNaN(parseFloat(cfg.min)) ? Number(cfg.min) : null,
     max: cfg && !isNaN(parseFloat(cfg.max)) ? Number(cfg.max) : null,
     step: cfg && Number(cfg.step) ? cfg.step : 1,
-    callback: cfg && cfg.callback ? cfg.callback : null
+    callback: cfg && cfg.callback ? cfg.callback : null,
+    setValue: cfg && cfg.setValue ? cfg.setValue : null
   };
 
   var $input = $(this);
@@ -14,12 +15,19 @@ $.fn.RangeSlider = function (cfg) {
   var max = this.sliderCfg.max;
   var step = this.sliderCfg.step;
   var callback = this.sliderCfg.callback;
+  var setValue = this.sliderCfg.setValue;
+  
   var updateValue = function(value) {
     $input.val(value).css('background-size', value + '% 100%');
     $inputText.val(value)
     if ($.isFunction(callback)) {
       callback(this);
     }
+  }
+
+  if (setValue) {
+    $input.val(setValue).css('background-size', setValue + '% 100%');
+    $inputText.val(setValue)
   }
 
   // 设置初始值
