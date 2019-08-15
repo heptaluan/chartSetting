@@ -43,23 +43,11 @@
 
     <!-- 测试用按钮 -->
     <div id="bottom-bar">
-      <div id="sdk-tool" class="tool-introduced">
-        <div>图表工具</div>
-        <div>本功能由<a target="_blank"
-            href="https://dydata.io/appv2/#/pages/home/createproject?platform=a1&hmsr=a1&hmpl=a1%E5%81%9A%E5%9B%BE%E8%A1%A8&hmcu=&hmkw=&hmci=">镝数</a>提供
-        </div>
-      </div>
       <div class="export-buttons">
         <div id="sdImg">导出普通</div>
         <div id="hdImg">导出高清</div>
       </div>
-      <div id="sdk-cancel">x</div>
     </div>
-    <a target="_blank"
-      href="https://dydata.io/appv2/#/pages/home/createproject?platform=a3&hmsr=a3&hmpl=a3%E5%81%9A%E5%9B%BE%E8%A1%A8&hmcu=&hmkw=&hmci=">
-      <div id="sdk-logo" class="logo"></div>
-    </a>
-
   </div>
 
   <script>
@@ -76,9 +64,10 @@
         scale: 1,
         transparent: false
       }, function (res) {
-        parent.postMessage({
-          sdImg: res
-        }, '*');
+        console.log(res)
+        // parent.postMessage({
+        //   sdImg: res
+        // }, '*');
       })
     }, false)
 
@@ -88,20 +77,11 @@
         scale: 2,
         transparent: false
       }, function (res) {
-        parent.postMessage({
-          hdImg: res
-        }, '*');
+        console.log(res)
+        // parent.postMessage({
+        //   hdImg: res
+        // }, '*');
       })
-    }, false)
-
-    // 取消按钮
-    document.getElementById('sdk-cancel').addEventListener('click', function () {
-      editor.getJSON(function (res) {
-        // console.log(res)
-      })
-      parent.postMessage({
-        closeDialog: true
-      }, '*');
     }, false)
 
   </script>
