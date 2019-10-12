@@ -14,6 +14,10 @@
 
 接下来将项目部署至本地服务器环境启动，访问 `index.html` 即可
 
+## Example
+
+[example](https://heptaluan.github.io/chartSetting/example/index.html)
+
 ## SDK 依赖
 
 如下所示，页面所需要引入相关文件
