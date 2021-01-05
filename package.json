@@ -21,7 +21,7 @@
     "rollup-plugin-uglify": "^4.0.0"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "spectrum-colorpicker": "^1.8.0"
   }
 }
